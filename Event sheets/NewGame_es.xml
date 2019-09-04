@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>NewGame_es</name>
+    <events>
+        <event-group description="" sid="1389514090659551" title="OnClick_NG">
+            <sub-events>
+                <event-block sid="5632896915827634">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="3344550128331337" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="7032838011489034" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8259975598093306" type="System">
+                            <param id="0" name="Layout">lvl01_1990</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1659768776506582">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="2146432517169202" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8070431783930921" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="1108691137626754" type="System">
+                            <param id="0" name="Layout">NewGame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2049571479372087">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="5337342384087226" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3103600380754243" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="7684380479237857" type="System">
+                            <param id="0" name="Layout">NewGame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5212737010623046">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="9504439989621087" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2429119106276652" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="1040470828725163" type="System">
+                            <param id="0" name="Layout">test</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7319451886091395">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="3772038768125694" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="6626031187537676" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9477899346888815" type="System">
+                            <param id="0" name="Layout">NewGame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6938394996247213">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="8275668710306175" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="186136162313291" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3830422940601832" type="System">
+                            <param id="0" name="Layout">NewGame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9741507989008716">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="4933698218128193" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="4652768947894606" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="6350817570105404" type="System">
+                            <param id="0" name="Layout">NewGame</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2828482399206884">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="2340758260362184" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3276386187256729" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="196535576679614" type="System">
+                            <param id="0" name="Layout">MainMenu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="8467650333840446" title="CursorOver_NG">
+            <sub-events>
+                <event-block sid="7491982001696256">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="5489450914391213" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="9777976690012652" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="9299489353416471" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="4565143993288891" type="9p_MM">
+                            <param id="0" name="X">64</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="460533749802093" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6627072102675118">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="5054927064656813" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="7320073195898802" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2285434193956915" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="503913411861959" type="9p_MM">
+                            <param id="0" name="X">64</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1158717591184247" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4758892401523542">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="4714489447961263" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="8304369780750092" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="6077139414677631" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="7007205590351539" type="9p_MM">
+                            <param id="0" name="X">64</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1253970472557349" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4011944612807617">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="7763215931140305" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="9979453494112577" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8869092418650451" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="5568257446218436" type="9p_MM">
+                            <param id="0" name="X">64</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="2918464558740111" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1800151534350955">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="6419821568367487" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="1064387037587846" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="5160604043562" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="5031361923284004" type="9p_MM">
+                            <param id="0" name="X">896</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1681218918954229" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2530954469643274">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="3039237742615262" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="5420417109431919" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="6813489897217523" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="8355941848018194" type="9p_MM">
+                            <param id="0" name="X">896</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="308982056197325" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7043277385312786">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="1531611717497283" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="2982690611653695" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="4538929725736202" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="5658125819449691" type="9p_MM">
+                            <param id="0" name="X">896</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="7290320979388463" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4631486571754901">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="4367269877628691" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="9567174152872507" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="7906634633206612" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="3604089811577846" type="9p_MM">
+                            <param id="0" name="X">896</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="6614228272486038" type="9p_MM">
+                            <param id="0" name="Width">768</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4756739666606658">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8258611286742744" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="56966630049239" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3120877583245425" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="9597393911340453" type="9p_MM">
+                            <param id="0" name="X">128</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="8752604268131319" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9432472712440529">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8405091675313502" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="3214606773253971" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="5175625792844613" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="8652617796269215" type="9p_MM">
+                            <param id="0" name="X">128</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="6830518539026572" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9992257336581609">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="487120469592819" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="7926615415030754" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8528811597825924" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="7490600911657577" type="9p_MM">
+                            <param id="0" name="X">128</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="7921956472792298" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8224572329754867">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8346517754662926" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="1005459893014191" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8952384339643084" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="4759562163433338" type="9p_MM">
+                            <param id="0" name="X">128</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="7370097904310696" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="932926387828078">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="6085974274097551" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="8879089883464905" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="8259600043448066" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="2485190220043711" type="9p_MM">
+                            <param id="0" name="X">960</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1248678710064576" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9955960051951157">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="8532469344309771" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="9263254412620445" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="350003884431066" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="2851647366033558" type="9p_MM">
+                            <param id="0" name="X">960</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="9155156781877987" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8260131557544662">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="4205004886969328" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="5253490921867516" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="665410758126308" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="6026168585597535" type="9p_MM">
+                            <param id="0" name="X">960</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="6170089120001335" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5758494505384195">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="3692246094383579" type="System">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="8655492554876581" type="Mouse">
+                            <param id="0" name="Object">9p_MM</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="245357237734371" type="9p_MM">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="6781088385825359" type="9p_MM">
+                            <param id="0" name="X">960</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="410963493466175" type="9p_MM">
+                            <param id="0" name="Width">640</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

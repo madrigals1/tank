@@ -1,0 +1,62 @@
+{
+	"name": "WallsBronze_BottomLeft",
+	"plugin-id": "Sprite",
+	"sid": 1847567141408677,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "HP for walls",
+			"sid": 9902307832018956
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 761994739157322
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\wall.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 222887,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.5,
+								0.5,
+								0.5,
+								0.5,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 9161253693494308,
+				"name": "p25",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

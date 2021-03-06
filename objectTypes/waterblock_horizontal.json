@@ -1,0 +1,43 @@
+{
+	"name": "WaterBlock_Horizontal",
+	"plugin-id": "Sprite",
+	"sid": 6191735734708212,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 1929299625088858
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 1,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\Sprites\\UnAssigned\\water_0000.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5544092,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 5739457574106753,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

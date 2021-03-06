@@ -1,0 +1,70 @@
+{
+	"name": "Soldier_Bullet",
+	"plugin-id": "Sprite",
+	"sid": 407103772454359,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 9503434542878212
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 292,
+						"height": 84,
+						"originX": 0.113014,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\Construct 2\\Sprites\\bullets_mini.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9041260,
+						"collisionPoly": {
+							"points": [
+								0.959149,
+								1,
+								0.516117,
+								1,
+								0.14231,
+								1,
+								0.100777,
+								0.582518,
+								0.100777,
+								0.0639266,
+								0.516117,
+								0,
+								0.986838,
+								0.0247867,
+								1,
+								0.582518
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "BoomPoint",
+								"x": 0,
+								"y": 0.5
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 8936539794755344,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

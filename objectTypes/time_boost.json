@@ -1,0 +1,49 @@
+{
+	"name": "Time_Boost",
+	"plugin-id": "Sprite",
+	"sid": 4933939609854603,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 130,
+						"height": 130,
+						"originX": 0.423077,
+						"originY": 0.438462,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\time.jpg",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7021587,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 130,
+						"height": 130,
+						"originX": 0.423077,
+						"originY": 0.438462,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2456013,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 6146033574093842,
+				"name": "Default",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

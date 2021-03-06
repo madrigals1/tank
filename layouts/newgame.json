@@ -1,0 +1,799 @@
+{
+	"name": "NewGame",
+	"layers": [
+		{
+			"name": "Background",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Background_MM",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 92,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 1705.9999999999998,
+						"height": 960,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				}
+			],
+			"sid": 3516470386099881,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "Buttons",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 100,
+					"instanceVariables": {
+						"ID": 1
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 128,
+						"y": 192,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 96,
+					"instanceVariables": {
+						"ID": 3
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 128,
+						"y": 448,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 95,
+					"instanceVariables": {
+						"ID": 2
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 128,
+						"y": 320,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 97,
+					"instanceVariables": {
+						"ID": 4
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 128,
+						"y": 576,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 2,
+					"instanceVariables": {
+						"ID": 5
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 960,
+						"y": 192,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 4,
+					"instanceVariables": {
+						"ID": 7
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 960,
+						"y": 448,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 14,
+					"instanceVariables": {
+						"ID": 6
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 960,
+						"y": 320,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "9p_MM",
+					"properties": {
+						"left-margin": 16,
+						"right-margin": 16,
+						"top-margin": 16,
+						"bottom-margin": 16,
+						"edges": "stretch",
+						"fill": "stretch",
+						"initially-visible": true,
+						"origin": "top-left",
+						"seams": "overlap"
+					},
+					"uid": 22,
+					"instanceVariables": {
+						"ID": 8
+					},
+					"behaviors": {},
+					"effects": {
+						"Glass": {
+							"parameters": {
+								"density": 10
+							}
+						}
+					},
+					"world": {
+						"x": 960,
+						"y": 576,
+						"width": 640,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 951248679744123,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "Texts",
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "TEST TANKS",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 109,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 192,
+						"y": 576,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "TANK 1990",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 101,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 192,
+						"y": 192,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "ADVENTURE",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 102,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 192,
+						"y": 320,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "ARCADE",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 103,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 192,
+						"y": 448,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "BACK",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 1024,
+						"y": 576,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "1 VS 1",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 1024,
+						"y": 192,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "CREATE LVL",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 1024,
+						"y": 320,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				},
+				{
+					"type": "Main_Font",
+					"properties": {
+						"text": "ONLINE",
+						"enable-bbcode": false,
+						"character-width": 12,
+						"character-height": 21,
+						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
+						"spacing-data": "",
+						"scale": 4,
+						"character-spacing": 0,
+						"line-height": 0,
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "character",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Inverse": {
+							"parameters": {
+								"intensity": 2
+							}
+						}
+					},
+					"world": {
+						"x": 1024,
+						"y": 448,
+						"width": 512,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0
+					}
+				}
+			],
+			"sid": 2299553613747564,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		}
+	],
+	"sid": 3468969810139154,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"eventSheet": "NewGame_es"
+}

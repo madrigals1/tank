@@ -1,0 +1,63 @@
+{
+	"name": "Bang_Bang",
+	"plugin-id": "Sprite",
+	"sid": 799933862329946,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 433649799678306
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 193,
+						"height": 199,
+						"originX": 0.512953,
+						"originY": 0.497487,
+						"originalSource": "D:\\Desktop\\WIN\\Construct 2\\Sprites\\explosion0007.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6954568,
+						"collisionPoly": {
+							"points": [
+								0.279793,
+								0.271357,
+								0.512953,
+								0.201005,
+								0.766839,
+								0.251256,
+								0.891192,
+								0.497487,
+								0.73057,
+								0.708543,
+								0.512953,
+								0.829146,
+								0.248705,
+								0.753769,
+								0.15544,
+								0.497487
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 827358343168511,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

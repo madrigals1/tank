@@ -1,0 +1,68 @@
+{
+	"name": "enemy_bullet",
+	"plugin-id": "Sprite",
+	"sid": 9757975193025092,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 4626636814448698
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 3311344834202663
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 143,
+						"height": 25,
+						"originX": 0.034965,
+						"originY": 0.48,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\bullet.jpg",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3102201,
+						"collisionPoly": {
+							"points": [
+								0.745962,
+								0,
+								0.993007,
+								0.737939,
+								0.755813,
+								0.96,
+								0.477517,
+								0.96,
+								0.181982,
+								0.96,
+								0.00712283,
+								0.737939,
+								0.174593,
+								0,
+								0.477517,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 5726164209024462,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"name": "Soldier_House",
+	"plugin-id": "Sprite",
+	"sid": 8098743318794212,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 6374218976414769
+		},
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 692823078150202
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 3798587247984988
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 180,
+						"height": 180,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\RD2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8957572,
+						"collisionPoly": {
+							"points": [
+								0.302741,
+								0,
+								0.434247,
+								0.0814946,
+								0.565753,
+								0.0834558,
+								0.679327,
+								0,
+								0.942339,
+								0.232657,
+								1,
+								0.583767,
+								0.937854,
+								1,
+								0.485803,
+								0.803593,
+								0.0595302,
+								1,
+								0,
+								0.573462,
+								0.0636395,
+								0.193622
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "SpawnPoint1",
+								"x": 0.227778,
+								"y": 0.938889
+							},
+							{
+								"name": "SpawnPoint2",
+								"x": 0.5,
+								"y": 0.872222
+							},
+							{
+								"name": "SpawnPoint3",
+								"x": 0.761111,
+								"y": 0.938889
+							},
+							{
+								"name": "HP",
+								"x": -0.0333333,
+								"y": -0.111111
+							},
+							{
+								"name": "BoomPoint",
+								"x": 0.5,
+								"y": 0.45
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 7039801620964441,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

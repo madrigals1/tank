@@ -1,0 +1,27 @@
+{
+	"name": "WaterBlocks",
+	"plugin-id": "Sprite",
+	"sid": 4783022084703972,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid2",
+			"sid": 9409416365865928
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"WaterBlock",
+		"WaterBlock_Bottom_Left",
+		"WaterBlock_Bottom_Right",
+		"WaterBlock_Horizontal",
+		"WaterBlock_Horizontal_Left",
+		"WaterBlock_Horizontal_Right",
+		"WaterBlock_Top_Left",
+		"WaterBlock_Top_Right",
+		"WaterBlock_Vertical",
+		"WaterBlock_Vertical_Bottom",
+		"WaterBlock_Vertical_Top"
+	]
+}

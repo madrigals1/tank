@@ -1,0 +1,25 @@
+{
+	"name": "Main_Font",
+	"plugin-id": "Spritefont2",
+	"sid": 7253106204094621,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "inverse",
+			"name": "Inverse"
+		}
+	],
+	"image": {
+		"width": 96,
+		"height": 386,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\sprite_font.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7300579,
+		"useCollisionPoly": true
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"name": "WaterBG",
+	"plugin-id": "TiledBg",
+	"sid": 8358192363161853,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 2482784712141932
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 32,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\Sprites\\FullBlocks\\waterblock.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2011906,
+		"useCollisionPoly": true
+	}
+}

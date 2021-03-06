@@ -1,0 +1,83 @@
+{
+	"name": "WeaponS",
+	"plugin-id": "Sprite",
+	"sid": 777257084808592,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.25,
+						"originY": 0.25,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\Bullet.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2275342,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 740787642803865,
+				"name": "Bullet",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 1
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.25,
+						"originY": 0.25,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2513525,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 560290334580801,
+				"name": "MG",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 1
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.25,
+						"originY": 0.25,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6868516,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 465979211934025,
+				"name": "Napalm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 1
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Smoke_Bronze",
+	"plugin-id": "Particles",
+	"sid": 3902900067480251,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 90,
+		"height": 90,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3312083,
+		"useCollisionPoly": true
+	}
+}

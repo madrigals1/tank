@@ -1,0 +1,37 @@
+{
+	"name": "Big_Box",
+	"plugin-id": "Sprite",
+	"sid": 347417640837671,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 192,
+						"height": 192,
+						"originX": 0,
+						"originY": 1,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\9p.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6196389,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 392901701605819,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

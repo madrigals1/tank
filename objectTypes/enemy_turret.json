@@ -1,0 +1,78 @@
+{
+	"name": "Enemy_Turret",
+	"plugin-id": "Sprite",
+	"sid": 798061553009083,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 280100498867909
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 4614759544860341
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 6952982151218884
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 118,
+						"height": 64,
+						"originX": 0.262712,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\bt1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3126646,
+						"collisionPoly": {
+							"points": [
+								0.516949,
+								0.439026,
+								0.453682,
+								0.828125,
+								0.186441,
+								0.894715,
+								0.00847459,
+								0.610901,
+								0.0847458,
+								0.208856,
+								0.377411,
+								0.125
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "ShootPoint",
+								"x": 0.881356,
+								"y": 0.515625
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 3055233378058419,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"name": "FourWalls",
+	"plugin-id": "TiledBg",
+	"sid": 3811866628939582,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Portal_Closed",
+			"type": "number",
+			"desc": "",
+			"sid": 7464792956298729
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 8586746135684696
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 64,
+		"height": 64,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\Sprites\\FullBlocks\\wall.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4707254,
+		"useCollisionPoly": true
+	}
+}

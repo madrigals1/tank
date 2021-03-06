@@ -1,0 +1,43 @@
+{
+	"name": "WaterBlock_Vertical_Top",
+	"plugin-id": "Sprite",
+	"sid": 3209075114748805,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 786706154130675
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\Sprites\\UnAssigned\\water_0000.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6180030,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 4107575669757438,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

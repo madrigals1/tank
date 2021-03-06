@@ -1,0 +1,20 @@
+{
+	"name": "Smoke_4walls",
+	"plugin-id": "Particles",
+	"sid": 6704812567097713,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 88,
+		"height": 90,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5412747,
+		"useCollisionPoly": true
+	}
+}

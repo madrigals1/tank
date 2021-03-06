@@ -1,0 +1,142 @@
+{
+	"name": "WallsSilver",
+	"plugin-id": "Sprite",
+	"sid": 6362570030975836,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "HP for walls",
+			"sid": 605418350074632
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 3009682969333571
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\wall.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 599127,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 1369559484815797,
+				"name": "p100",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7526626,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 6307091029956241,
+				"name": "p80",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4770333,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 3860452387025219,
+				"name": "p60",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 452758,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 9713873019376216,
+				"name": "p40",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7238272,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 6010758724188601,
+				"name": "p20",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

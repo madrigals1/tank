@@ -1,0 +1,33 @@
+{
+	"name": "HP_Gray_Sprite",
+	"plugin-id": "NinePatch",
+	"sid": 770167057958480,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 867609384946545
+		},
+		{
+			"name": "ID_B",
+			"type": "number",
+			"desc": "",
+			"sid": 960536825971814
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 25,
+		"height": 5,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\Безымянный.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3304486,
+		"useCollisionPoly": true
+	}
+}

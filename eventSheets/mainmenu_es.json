@@ -1,0 +1,270 @@
+{
+	"name": "mainmenu_es",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "main_es"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "OnClick",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 3344550128331337,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "9p_MM"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "9p_MM",
+							"sid": 7032838011489034,
+							"parameters": {
+								"instance-variable": "ID",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 8259975598093306,
+							"parameters": {
+								"layout": "NewGame"
+							}
+						}
+					],
+					"sid": 5632896915827634
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 2146432517169202,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "9p_MM"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "9p_MM",
+							"sid": 8070431783930921,
+							"parameters": {
+								"instance-variable": "ID",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "load",
+							"objectClass": "System",
+							"sid": 1108691137626754,
+							"parameters": {
+								"slot": "\"mysave\""
+							}
+						}
+					],
+					"sid": 1659768776506582
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 5337342384087226,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "9p_MM"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "9p_MM",
+							"sid": 3103600380754243,
+							"parameters": {
+								"instance-variable": "ID",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 7684380479237857,
+							"parameters": {
+								"layout": "About"
+							}
+						}
+					],
+					"sid": 2049571479372087
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 9504439989621088,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "9p_MM"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "9p_MM",
+							"sid": 2429119106276652,
+							"parameters": {
+								"instance-variable": "ID",
+								"comparison": 0,
+								"value": "4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "close",
+							"objectClass": "Browser",
+							"sid": 1040470828725163
+						}
+					],
+					"sid": 5212737010623046
+				}
+			],
+			"sid": 7698580677712942
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "CursorOver",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 3179884593609988,
+							"parameters": {
+								"object": "9p_MM"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 9777976690012652,
+							"parameters": {
+								"object": "9p_MM"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "9p_MM",
+							"sid": 460533749802093,
+							"parameters": {
+								"width": "640"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "9p_MM",
+							"sid": 4565143993288891,
+							"parameters": {
+								"x": "64"
+							}
+						}
+					],
+					"sid": 7491982001696256
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 7301796410484898,
+							"parameters": {
+								"object": "9p_MM"
+							}
+						},
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 56966630049239,
+							"parameters": {
+								"object": "9p_MM"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-width",
+							"objectClass": "9p_MM",
+							"sid": 2827798977960361,
+							"parameters": {
+								"width": "512"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "9p_MM",
+							"sid": 7982536485274448,
+							"parameters": {
+								"x": "128"
+							}
+						}
+					],
+					"sid": 4756739666606658
+				}
+			],
+			"sid": 9918202282702492
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 224416828953679
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 187064303434104
+				}
+			],
+			"sid": 875427146192605
+		}
+	],
+	"sid": 142881716198156
+}

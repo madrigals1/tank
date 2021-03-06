@@ -1,0 +1,13 @@
+{
+	"name": "Light_Bullets",
+	"plugin-id": "Sprite",
+	"sid": 730588502623491,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"MG_Bullet",
+		"Player_Bullet",
+		"Soldier_Bullet"
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Bridge",
+	"plugin-id": "TiledBg",
+	"sid": 136263493846839,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 955443053217343
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 32,
+		"height": 32,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\CT-RopeBridgeFinal.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5298798,
+		"useCollisionPoly": true
+	}
+}

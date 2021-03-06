@@ -1,0 +1,49 @@
+{
+	"name": "Dmg_Boost",
+	"plugin-id": "Sprite",
+	"sid": 3083932432656743,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.525,
+						"originY": 0.525,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\up.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6058867,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.525,
+						"originY": 0.525,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3639874,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 112140282553679,
+				"name": "Default",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

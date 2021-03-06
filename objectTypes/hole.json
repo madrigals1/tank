@@ -1,0 +1,57 @@
+{
+	"name": "Hole",
+	"plugin-id": "Sprite",
+	"sid": 5325132139882554,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\Nora.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1611045,
+						"collisionPoly": {
+							"points": [
+								0.15748,
+								0.155642,
+								0.507874,
+								0.0622568,
+								0.818898,
+								0.194553,
+								0.964567,
+								0.501945,
+								0.811024,
+								0.801556,
+								0.507874,
+								0.949416,
+								0.177165,
+								0.828794,
+								0.0669291,
+								0.501945
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 6828869222765083,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

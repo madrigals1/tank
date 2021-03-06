@@ -1,0 +1,33 @@
+{
+	"name": "HP_Green_Sprite",
+	"plugin-id": "NinePatch",
+	"sid": 702007389289016,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 224270355380545
+		},
+		{
+			"name": "ID_B",
+			"type": "number",
+			"desc": "",
+			"sid": 398550098595060
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 25,
+		"height": 5,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\Безымянный.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 154220,
+		"useCollisionPoly": true
+	}
+}

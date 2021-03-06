@@ -1,0 +1,537 @@
+{
+	"name": "test_es",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "main_es"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "System_Test",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 8434781529959138
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 2641225155037372,
+							"parameters": {
+								"variable": "Enemy_RED_Spawnable",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 5223364872847441,
+							"parameters": {
+								"variable": "Enemy_Red_Amount_Max",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 6548480741390325,
+							"parameters": {
+								"variable": "Enemy_Red_Amount",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 904980886882468,
+							"parameters": {
+								"variable": "Enemy_Red_Amount_Killed",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 9673008577350440,
+							"parameters": {
+								"variable": "Enemy_Red_Amount_Left",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 6420259774176999,
+							"parameters": {
+								"variable": "Enemy_Red_Amount_Left_UI",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 8196577146522247,
+							"parameters": {
+								"variable": "Enemy_Red_spawn1_x",
+								"value": "422"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 8981977187694149,
+							"parameters": {
+								"variable": "Enemy_Red_spawn1_y",
+								"value": "96"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 5793913610850682,
+							"parameters": {
+								"variable": "Enemy_Red_spawn2_x",
+								"value": "784"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 6198277187287743,
+							"parameters": {
+								"variable": "Enemy_Red_spawn2_y",
+								"value": "96"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 2360291226962105,
+							"parameters": {
+								"variable": "Enemy_Red_spawn3_x",
+								"value": "1167"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 4650699992906858,
+							"parameters": {
+								"variable": "Enemy_Red_spawn3_y",
+								"value": "96"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 5357266202935709,
+							"parameters": {
+								"variable": "Enemy_Red_spawn4_x",
+								"value": "422"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 1212976185829063,
+							"parameters": {
+								"variable": "Enemy_Red_spawn4_y",
+								"value": "543"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 219937009797809,
+							"parameters": {
+								"variable": "Enemy_Red_spawn5_x",
+								"value": "803"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 7494831423618118,
+							"parameters": {
+								"variable": "Enemy_Red_spawn5_y",
+								"value": "543"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 6489619864732985,
+							"parameters": {
+								"variable": "Enemy_Red_spawn6_x",
+								"value": "1186"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 8530735242759111,
+							"parameters": {
+								"variable": "Enemy_Red_spawn6_y",
+								"value": "543"
+							}
+						}
+					],
+					"sid": 4686712293630249
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 3911425784126668
+						}
+					],
+					"actions": [
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 4481709365549846,
+							"parameters": {
+								"object-to-create": "HPContainer",
+								"layer": "\"UI_Info\"",
+								"x": "HP_Container_x",
+								"y": "HP_Container_y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 5137379858974439,
+							"parameters": {
+								"object-to-create": "ScoreContainer",
+								"layer": "\"UI_Info\"",
+								"x": "Score_And_Container_x",
+								"y": "Score_And_Container_y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 3585643377746413,
+							"parameters": {
+								"object-to-create": "Score",
+								"layer": "\"UI_Info\"",
+								"x": "Score_And_Container_x",
+								"y": "Score_And_Container_y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 5333654439375077,
+							"parameters": {
+								"object-to-create": "Red_Amount_Left",
+								"layer": "\"UI_Info\"",
+								"x": "Red_AL_x",
+								"y": "Red_AL_y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 2832959727164441,
+							"parameters": {
+								"object-to-create": "Log",
+								"layer": "\"UI_Info\"",
+								"x": "Log_x",
+								"y": "Log_y",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 6678491423994345,
+							"parameters": {
+								"object-to-create": "HPSprite",
+								"layer": "\"UI_Info\"",
+								"x": "HP_Sprite_x",
+								"y": "HP_Sprite_y",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 4066099743526845
+				}
+			],
+			"sid": 6177684287516231
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 690791707750124,
+					"parameters": {
+						"interval-seconds": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Soldier_House",
+					"sid": 1944520261034953,
+					"parameters": {
+						"object": "Soldier",
+						"layer": "\"Game_Solid\"",
+						"image-point": "\"SpawnPoint1\"",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Soldier_House",
+					"sid": 3347385843305124,
+					"parameters": {
+						"object": "Soldier",
+						"layer": "\"Game_Solid\"",
+						"image-point": "\"SpawnPoint2\"",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Soldier_House",
+					"sid": 5150491287805139,
+					"parameters": {
+						"object": "Soldier",
+						"layer": "\"Game_Solid\"",
+						"image-point": "\"SpawnPoint3\"",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 413272721995439
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Rifler",
+			"description": "",
+			"isActiveOnStart": false,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 1186205452192097
+						}
+					],
+					"actions": [
+						{
+							"id": "set-canvas-size",
+							"objectClass": "System",
+							"sid": 686079345841108,
+							"parameters": {
+								"width": "854",
+								"height": "480"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 9227897241088724,
+							"parameters": {
+								"group-name": "\"Soldier_Pathfinding_Corpse\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 6043324944539787,
+							"parameters": {
+								"group-name": "\"Soldier_Pathfinding_Player\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 7526846792318956,
+							"parameters": {
+								"group-name": "\"Rifle\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 3593852117964133,
+							"parameters": {
+								"group-name": "\"Bullet\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 6623838950335076,
+							"parameters": {
+								"group-name": "\"Tank_System\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 2501241792484551,
+							"parameters": {
+								"group-name": "\"Player_System\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 5697644605515595,
+							"parameters": {
+								"group-name": "\"KeySim_Tank\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 7627388555409931,
+							"parameters": {
+								"group-name": "\"KeySim_Player\"",
+								"state": "activated"
+							}
+						}
+					],
+					"sid": 7473192476635306
+				}
+			],
+			"sid": 179001734498456
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Tank",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 161322509414512
+						}
+					],
+					"actions": [
+						{
+							"id": "set-canvas-size",
+							"objectClass": "System",
+							"sid": 5343676964979276,
+							"parameters": {
+								"width": "1706",
+								"height": "960"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 968902588794054,
+							"parameters": {
+								"group-name": "\"Soldier_Pathfinding_Corpse\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 690811739128514,
+							"parameters": {
+								"group-name": "\"Soldier_Pathfinding_Player\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 167162644041134,
+							"parameters": {
+								"group-name": "\"Rifle\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 463740789389259,
+							"parameters": {
+								"group-name": "\"Bullet\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 300431128217566,
+							"parameters": {
+								"group-name": "\"Tank_System\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 337674670219764,
+							"parameters": {
+								"group-name": "\"Player_System\"",
+								"state": "deactivated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 192936765339975,
+							"parameters": {
+								"group-name": "\"KeySim_Tank\"",
+								"state": "activated"
+							}
+						},
+						{
+							"id": "set-group-active",
+							"objectClass": "System",
+							"sid": 736353619026575,
+							"parameters": {
+								"group-name": "\"KeySim_Player\"",
+								"state": "deactivated"
+							}
+						}
+					],
+					"sid": 557008995910887
+				}
+			],
+			"sid": 924427892335780
+		}
+	],
+	"sid": 958219701690870
+}

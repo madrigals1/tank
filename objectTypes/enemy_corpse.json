@@ -1,0 +1,91 @@
+{
+	"name": "enemy_corpse",
+	"plugin-id": "Sprite",
+	"sid": 5712920954798047,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 6648680056027333
+		},
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 6131866538959256
+		},
+		{
+			"name": "Direction",
+			"type": "number",
+			"desc": "",
+			"sid": 5702107551867742
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 30435519375097
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 8113025306572294
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 127,
+						"height": 65,
+						"originX": 0.503937,
+						"originY": 0.507692,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\tankall.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 168554,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "shassie1",
+								"x": 0.0551181,
+								"y": 0.138462
+							},
+							{
+								"name": "shassie2",
+								"x": 0.0551181,
+								"y": 0.861538
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 4322217544274762,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

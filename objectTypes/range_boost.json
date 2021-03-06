@@ -1,0 +1,69 @@
+{
+	"name": "Range_Boost",
+	"plugin-id": "Sprite",
+	"sid": 2210727645374707,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\bubble.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1995561,
+						"collisionPoly": {
+							"points": [
+								0.325,
+								0.325,
+								0.5,
+								0.275,
+								0.675,
+								0.325,
+								0.725,
+								0.5,
+								0.675,
+								0.675,
+								0.5,
+								0.725,
+								0.325,
+								0.675,
+								0.275,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 40,
+						"height": 40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7488468,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 9022786546192064,
+				"name": "Default",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 2
+			}
+		],
+		"subfolders": []
+	}
+}

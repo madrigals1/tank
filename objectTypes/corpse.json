@@ -1,0 +1,95 @@
+{
+	"name": "corpse",
+	"plugin-id": "Sprite",
+	"sid": 7074262733220845,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "MG_Ammo",
+			"type": "number",
+			"desc": "",
+			"sid": 563008288574475
+		},
+		{
+			"name": "MG_Ammo_MAX",
+			"type": "number",
+			"desc": "",
+			"sid": 583099793458438
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 9862270963395498
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 9378003813830456
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 8572358298420849
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 6525027254263091
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 127,
+						"height": 65,
+						"originX": 0.503937,
+						"originY": 0.507692,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\tankall.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3910776,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "shassie1",
+								"x": 0.0551181,
+								"y": 0.138462
+							},
+							{
+								"name": "shassie2",
+								"x": 0.0551181,
+								"y": 0.861538
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 9810836003499476,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

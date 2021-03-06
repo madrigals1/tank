@@ -1,0 +1,30 @@
+{
+	"name": "About_es",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 6434344682961356,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 8934465537006696,
+					"parameters": {
+						"layout": "MainMenu"
+					}
+				}
+			],
+			"sid": 8512608117278018
+		}
+	],
+	"sid": 371856520285203
+}

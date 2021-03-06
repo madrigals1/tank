@@ -1,0 +1,20 @@
+{
+	"name": "Smoke_Silver",
+	"plugin-id": "Particles",
+	"sid": 1698812524905057,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 86,
+		"height": 90,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 1168238,
+		"useCollisionPoly": true
+	}
+}

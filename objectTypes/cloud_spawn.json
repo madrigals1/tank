@@ -1,0 +1,20 @@
+{
+	"name": "Cloud_Spawn",
+	"plugin-id": "Particles",
+	"sid": 4722769615908341,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 64,
+		"height": 64,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Desktop\\cloud_PNG23.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3703660,
+		"useCollisionPoly": true
+	}
+}

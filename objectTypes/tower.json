@@ -1,0 +1,151 @@
+{
+	"name": "tower",
+	"plugin-id": "Sprite",
+	"sid": 1389558287105449,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 9485975796838580
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 134,
+						"height": 52,
+						"originX": 0.19403,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\tankall.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4278585,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "ShootPoint",
+								"x": 0.940298,
+								"y": 0.5
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 6350493337921356,
+				"name": "Bullet",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 125,
+						"height": 65,
+						"originX": 0.256,
+						"originY": 0.507692,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6043257,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "ShootPoint1",
+								"x": 0.952,
+								"y": 0.307692
+							},
+							{
+								"name": "ShootPoint2",
+								"x": 0.952,
+								"y": 0.692308
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 688338733741851,
+				"name": "MG",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 77,
+						"height": 52,
+						"originX": 0.337662,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3753315,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "FirePoint",
+								"x": 0.948052,
+								"y": 0.5
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 495087984785423,
+				"name": "Napalm",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "Napalm",
+	"plugin-id": "Particles",
+	"sid": 6376924540247959,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 193,
+		"height": 199,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\Adi\\Downloads\\explosion0007.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6057105,
+		"useCollisionPoly": true
+	}
+}

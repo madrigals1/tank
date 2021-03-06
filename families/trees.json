@@ -1,0 +1,13 @@
+{
+	"name": "Trees",
+	"plugin-id": "Sprite",
+	"sid": 581444422218643,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Tree1",
+		"Tree2",
+		"Tree3"
+	]
+}

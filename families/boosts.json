@@ -1,0 +1,15 @@
+{
+	"name": "Boosts",
+	"plugin-id": "Sprite",
+	"sid": 446571135689415,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Acc_Boost",
+		"Dmg_Boost",
+		"MG_Boost",
+		"Range_Boost",
+		"Time_Boost"
+	]
+}

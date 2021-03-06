@@ -1,0 +1,26 @@
+{
+	"name": "Walls_Bronze",
+	"plugin-id": "Sprite",
+	"sid": 353014535047702,
+	"instanceVariables": [
+		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"sid": 961764197377412
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"WallsBronze",
+		"WallsBronze_Bottom",
+		"WallsBronze_BottomLeft",
+		"WallsBronze_BottomRIght",
+		"WallsBronze_Left",
+		"WallsBronze_Right",
+		"WallsBronze_Top",
+		"WallsBronze_TopLeft",
+		"WallsBronze_TopRight"
+	]
+}

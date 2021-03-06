@@ -1,0 +1,75 @@
+{
+	"name": "Bullet",
+	"plugin-id": "Sprite",
+	"sid": 4140187855283535,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 6197059975138812
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestroyOutsideLayout",
+			"sid": 4306862561224828
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 141,
+						"height": 24,
+						"originX": 0.0283688,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\Adi\\Desktop\\bullet.jpg",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5393946,
+						"collisionPoly": {
+							"points": [
+								0.749451,
+								0,
+								1,
+								0.768686,
+								0.759442,
+								1,
+								0.477198,
+								1,
+								0.177471,
+								1,
+								0.000131667,
+								0.768686,
+								0.169977,
+								0,
+								0.477198,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "BoomPoint",
+								"x": 0.978723,
+								"y": 0.541667
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 9742844746863824,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

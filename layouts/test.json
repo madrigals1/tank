@@ -34,7 +34,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -62,7 +63,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -90,7 +92,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -146,7 +149,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -178,7 +182,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -247,7 +252,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -317,7 +323,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -358,7 +365,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -399,7 +407,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -440,7 +449,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -509,7 +519,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -586,7 +597,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -644,7 +656,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -711,7 +724,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -741,7 +755,8 @@
 							1,
 							0.200000003
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -779,7 +794,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

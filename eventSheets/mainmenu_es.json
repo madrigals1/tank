@@ -1,36 +1,54 @@
 {
-	"name": "mainmenu_es",
+	"name": "MainMenu_es",
 	"events": [
 		{
 			"eventType": "include",
 			"includeSheet": "main_es"
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "OnClick",
-			"description": "",
-			"isActiveOnStart": true,
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 653212179018184,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "UIButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "UIButton",
+					"sid": 245398007866138,
+					"parameters": {
+						"animation": "\"Pressed\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 755415928899690,
+					"parameters": {
+						"seconds": "0.3"
+					}
+				}
+			],
+			"sid": 833129606949118,
 			"children": [
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-object-clicked",
-							"objectClass": "Mouse",
-							"sid": 3344550128331337,
-							"parameters": {
-								"mouse-button": "left",
-								"click-type": "clicked",
-								"object-clicked": "9p_MM"
-							}
-						},
-						{
 							"id": "compare-instance-variable",
-							"objectClass": "9p_MM",
-							"sid": 7032838011489034,
+							"objectClass": "UIButton",
+							"sid": 804579924532334,
 							"parameters": {
-								"instance-variable": "ID",
+								"instance-variable": "id",
 								"comparison": 0,
 								"value": "1"
 							}
@@ -40,33 +58,23 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 8259975598093306,
+							"sid": 263685013679774,
 							"parameters": {
 								"layout": "NewGame"
 							}
 						}
 					],
-					"sid": 5632896915827634
+					"sid": 612848813629092
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-object-clicked",
-							"objectClass": "Mouse",
-							"sid": 2146432517169202,
-							"parameters": {
-								"mouse-button": "left",
-								"click-type": "clicked",
-								"object-clicked": "9p_MM"
-							}
-						},
-						{
 							"id": "compare-instance-variable",
-							"objectClass": "9p_MM",
-							"sid": 8070431783930921,
+							"objectClass": "UIButton",
+							"sid": 408029397013734,
 							"parameters": {
-								"instance-variable": "ID",
+								"instance-variable": "id",
 								"comparison": 0,
 								"value": "2"
 							}
@@ -76,33 +84,23 @@
 						{
 							"id": "load",
 							"objectClass": "System",
-							"sid": 1108691137626754,
+							"sid": 582405302497090,
 							"parameters": {
 								"slot": "\"mysave\""
 							}
 						}
 					],
-					"sid": 1659768776506582
+					"sid": 346312137609429
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-object-clicked",
-							"objectClass": "Mouse",
-							"sid": 5337342384087226,
-							"parameters": {
-								"mouse-button": "left",
-								"click-type": "clicked",
-								"object-clicked": "9p_MM"
-							}
-						},
-						{
 							"id": "compare-instance-variable",
-							"objectClass": "9p_MM",
-							"sid": 3103600380754243,
+							"objectClass": "UIButton",
+							"sid": 325297916232454,
 							"parameters": {
-								"instance-variable": "ID",
+								"instance-variable": "id",
 								"comparison": 0,
 								"value": "3"
 							}
@@ -112,33 +110,23 @@
 						{
 							"id": "go-to-layout",
 							"objectClass": "System",
-							"sid": 7684380479237857,
+							"sid": 958199862136119,
 							"parameters": {
 								"layout": "About"
 							}
 						}
 					],
-					"sid": 2049571479372087
+					"sid": 394508409958406
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-object-clicked",
-							"objectClass": "Mouse",
-							"sid": 9504439989621088,
-							"parameters": {
-								"mouse-button": "left",
-								"click-type": "clicked",
-								"object-clicked": "9p_MM"
-							}
-						},
-						{
 							"id": "compare-instance-variable",
-							"objectClass": "9p_MM",
-							"sid": 2429119106276652,
+							"objectClass": "UIButton",
+							"sid": 503200250830681,
 							"parameters": {
-								"instance-variable": "ID",
+								"instance-variable": "id",
 								"comparison": 0,
 								"value": "4"
 							}
@@ -148,104 +136,78 @@
 						{
 							"id": "close",
 							"objectClass": "Browser",
-							"sid": 1040470828725163
+							"sid": 623962099771861
 						}
 					],
-					"sid": 5212737010623046
+					"sid": 808670801740095
 				}
-			],
-			"sid": 7698580677712942
+			]
 		},
 		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "CursorOver",
-			"description": "",
-			"isActiveOnStart": true,
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 114951085910093,
+					"parameters": {
+						"object": "UIButton"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 363996558578008,
 			"children": [
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "for-each",
-							"objectClass": "System",
-							"sid": 3179884593609988,
-							"parameters": {
-								"object": "9p_MM"
-							}
-						},
-						{
 							"id": "cursor-is-over-object",
 							"objectClass": "Mouse",
-							"sid": 9777976690012652,
+							"sid": 973080303226603,
 							"parameters": {
-								"object": "9p_MM"
+								"object": "UIButton"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-width",
-							"objectClass": "9p_MM",
-							"sid": 460533749802093,
+							"id": "set-effect-parameter",
+							"objectClass": "UIButton",
+							"sid": 517555737981421,
 							"parameters": {
-								"width": "640"
-							}
-						},
-						{
-							"id": "set-x",
-							"objectClass": "9p_MM",
-							"sid": 4565143993288891,
-							"parameters": {
-								"x": "64"
+								"effect": "\"Contrast\"",
+								"parameter-index": "0",
+								"value": "150"
 							}
 						}
 					],
-					"sid": 7491982001696256
+					"sid": 374811831053581
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "for-each",
+							"id": "else",
 							"objectClass": "System",
-							"sid": 7301796410484898,
-							"parameters": {
-								"object": "9p_MM"
-							}
-						},
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 56966630049239,
-							"parameters": {
-								"object": "9p_MM"
-							},
-							"isInverted": true
+							"sid": 924644819667774
 						}
 					],
 					"actions": [
 						{
-							"id": "set-width",
-							"objectClass": "9p_MM",
-							"sid": 2827798977960361,
+							"id": "set-effect-parameter",
+							"objectClass": "UIButton",
+							"sid": 369866561725677,
 							"parameters": {
-								"width": "512"
-							}
-						},
-						{
-							"id": "set-x",
-							"objectClass": "9p_MM",
-							"sid": 7982536485274448,
-							"parameters": {
-								"x": "128"
+								"effect": "\"Contrast\"",
+								"parameter-index": "0",
+								"value": "100"
 							}
 						}
 					],
-					"sid": 4756739666606658
+					"sid": 737154827513223
 				}
-			],
-			"sid": 9918202282702492
+			]
 		},
 		{
 			"eventType": "block",

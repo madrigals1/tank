@@ -1,0 +1,116 @@
+{
+	"name": "UIButton",
+	"plugin-id": "Sprite",
+	"sid": 160060223859636,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "id",
+			"type": "number",
+			"desc": "",
+			"sid": 726243599400765
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "contrast",
+			"name": "Contrast"
+		},
+		{
+			"effectId": "tint",
+			"name": "Tint"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 66,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 265712,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9970588235294118,
+								0,
+								0.9970588235294118,
+								0.5,
+								0.9970588235294118,
+								0.9848484848484849,
+								0.5,
+								0.9848484848484849,
+								0,
+								0.9848484848484849,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 700121845814288,
+				"name": "Not pressed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 66,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2590582,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9970588235294118,
+								0,
+								0.9970588235294118,
+								0.5,
+								0.9970588235294118,
+								0.9848484848484849,
+								0.5,
+								0.9848484848484849,
+								0,
+								0.9848484848484849,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 531346266286292,
+				"name": "Pressed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -2,22 +2,22 @@
 	"projectFormatVersion": 1,
 	"savedWithRelease": 23404,
 	"name": "VerySecret",
-	"runtime": "c2",
+	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
+			"id": "Sprite",
+			"name": "Sprite",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "Mouse",
+			"name": "Mouse",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -56,14 +56,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "WebStorage",
-			"name": "WebStorage",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
@@ -80,16 +72,16 @@
 		},
 		{
 			"type": "plugin",
-			"id": "NinePatch",
-			"name": "9-patch",
+			"id": "Browser",
+			"name": "Browser",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Browser",
-			"name": "Browser",
+			"id": "NinePatch",
+			"name": "9-patch",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -192,16 +184,16 @@
 		},
 		{
 			"type": "effect",
-			"id": "inverse",
-			"name": "Inverse",
+			"id": "contrast",
+			"name": "Contrast",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "effect",
-			"id": "glass",
-			"name": "Glass",
+			"id": "tint",
+			"name": "Tint",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -211,6 +203,14 @@
 			"id": "pulse",
 			"name": "Pulse",
 			"author": "Danguafer/Silexars",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "inverse",
+			"name": "Inverse",
+			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		}
@@ -231,7 +231,6 @@
 			"Range_Boost",
 			"Time_Boost",
 			"LocalStorage",
-			"WebStorage",
 			"MG_Boost",
 			"MG_Bullet",
 			"Acc_Boost",
@@ -285,7 +284,6 @@
 			"Explosion_Tank",
 			"Hole",
 			"Cloud_Spawn",
-			"Background_MM",
 			"WaterBlock",
 			"WaterBlock_Vertical_Top",
 			"WaterBlock_Vertical_Bottom",
@@ -297,10 +295,9 @@
 			"WaterBlock_Bottom_Right",
 			"WaterBlock_Bottom_Left",
 			"Main_Font",
-			"9p_MM",
 			"Black",
 			"Browser",
-			"9p_About",
+			"Star_Button",
 			"Main_Font_About",
 			"Soldier",
 			"Soldier_Bullet",
@@ -320,9 +317,19 @@
 			"Gray_Bars",
 			"Aim",
 			"Bang_Bang",
-			"Shassie"
+			"Shassie",
+			"UIText"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"Background_MM",
+					"UIButton"
+				],
+				"subfolders": [],
+				"name": "UI"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [
@@ -394,7 +401,7 @@
 				"items": [
 					"About_es",
 					"NewGame_es",
-					"mainmenu_es"
+					"MainMenu_es"
 				],
 				"subfolders": [],
 				"name": "Menu"
@@ -442,7 +449,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "kenvector_future2.ttf",
+					"type": "application/font-sfnt",
+					"sid": 997738072075517
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
@@ -559,7 +572,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 1664,
+	"viewportWidth": 1708,
 	"viewportHeight": 960,
 	"firstLayout": "MainMenu"
 }

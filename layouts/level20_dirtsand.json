@@ -34,7 +34,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -66,7 +67,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -105,7 +107,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -133,7 +136,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -161,7 +165,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -193,7 +198,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -232,7 +238,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -264,7 +271,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -300,7 +308,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -328,7 +337,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -356,7 +366,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -397,7 +408,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -438,7 +450,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -479,7 +492,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -520,7 +534,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -561,7 +576,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -646,7 +662,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -678,7 +695,8 @@
 							1,
 							1
 						],
-						"angle": 1.46509552
+						"angle": 1.46509552,
+						"zElevation": 0
 					}
 				}
 			],

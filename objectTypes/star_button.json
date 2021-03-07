@@ -1,21 +1,21 @@
 {
-	"name": "9p_MM",
+	"name": "Star_Button",
 	"plugin-id": "NinePatch",
-	"sid": 670498797896397,
+	"sid": 4617628441399939,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "ID",
 			"type": "number",
 			"desc": "",
-			"sid": 1619380605551038
+			"sid": 4080655288756686
 		}
 	],
 	"behaviorTypes": [],
 	"effectTypes": [
 		{
-			"effectId": "glass",
-			"name": "Glass"
+			"effectId": "pulse",
+			"name": "Pulse"
 		}
 	],
 	"image": {
@@ -26,7 +26,7 @@
 		"originalSource": "C:\\Users\\Adi\\Desktop\\9p2.png",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6795336,
+		"imageSpriteId": 4484814,
 		"useCollisionPoly": true
 	}
 }

@@ -9815,6 +9815,18 @@
 				}
 			],
 			"sid": 682625624812884
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 870577891919460
+				}
+			],
+			"actions": [],
+			"sid": 524757537596693
 		}
 	],
 	"sid": 627147138189875

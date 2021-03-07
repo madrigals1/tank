@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "9p_About",
+					"type": "Star_Button",
 					"properties": {
 						"left-margin": 16,
 						"right-margin": 16,
@@ -47,7 +47,9 @@
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -91,7 +93,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
@@ -164,7 +167,8 @@
 							1,
 							1
 						],
-						"angle": 0
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

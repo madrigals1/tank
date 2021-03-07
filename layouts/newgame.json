@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Background_MM",
+					"type": "Background_UI",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",

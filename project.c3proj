@@ -16,16 +16,24 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Mouse",
-			"name": "Mouse",
+			"id": "Text",
+			"name": "Text",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Spritefont2",
+			"name": "Sprite font",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -48,30 +56,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "LocalStorage",
-			"name": "Local storage",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Text",
-			"name": "Text",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Spritefont2",
-			"name": "Sprite font",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Browser",
 			"name": "Browser",
 			"author": "Scirra",
@@ -80,16 +64,40 @@
 		},
 		{
 			"type": "plugin",
-			"id": "NinePatch",
-			"name": "9-patch",
+			"id": "Function",
+			"name": "Function",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "Function",
-			"name": "Function",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "LocalStorage",
+			"name": "Local storage",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -112,8 +120,32 @@
 		},
 		{
 			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -144,40 +176,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Persist",
 			"name": "Persist",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Turret",
-			"name": "Turret",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Fade",
-			"name": "Fade",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -205,129 +205,168 @@
 			"author": "Danguafer/Silexars",
 			"version": "r234.4",
 			"bundled": false
-		},
-		{
-			"type": "effect",
-			"id": "inverse",
-			"name": "Inverse",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
 		}
 	],
 	"uniqueId": "3k8y8jenijj4j",
 	"objectTypes": {
 		"items": [
-			"Mouse",
-			"Bullet",
-			"Keyboard",
 			"corpse",
 			"tower",
-			"Napalm",
-			"WallsBronze",
-			"FourWalls",
 			"DirtBG",
-			"Dmg_Boost",
-			"Range_Boost",
-			"Time_Boost",
-			"LocalStorage",
-			"MG_Boost",
-			"MG_Bullet",
-			"Acc_Boost",
-			"WallsSilver",
-			"ScoreContainer",
-			"Score",
-			"HPContainer",
-			"HPSprite",
-			"FuelText",
-			"MGText",
-			"Log",
 			"SandBG",
 			"Portal",
-			"Tree1",
-			"Tree2",
-			"Tree3",
 			"SandBlock",
 			"DirtBlock",
-			"WaterBlock_Vertical",
 			"GrassBlock",
-			"WaterBG",
 			"RiversideDirtDown",
 			"Bridge",
 			"Rope1",
 			"Rope2",
-			"WaterBG2",
 			"RiversideSandUp",
-			"MineBoom",
-			"enemy_corpse",
-			"enemy_tower",
-			"enemy_bullet",
-			"Enemy_Turret",
-			"enemy_turret_bullet",
-			"Smoke_Bronze",
-			"Smoke_Silver",
-			"Smoke_4walls",
-			"Explosion_Bullet",
-			"Red_Amount_Left",
 			"Slider",
-			"WallsBronze_Left",
-			"WallsBronze_Right",
-			"WallsBronze_Top",
-			"WallsBronze_Bottom",
-			"WallsBronze_TopLeft",
-			"WallsBronze_BottomLeft",
-			"WallsBronze_TopRight",
-			"WallsBronze_BottomRIght",
-			"Spark_Red",
-			"Spark_Orange",
-			"BulletText",
-			"Explosion_Tank",
 			"Hole",
-			"Cloud_Spawn",
-			"WaterBlock",
-			"WaterBlock_Vertical_Top",
-			"WaterBlock_Vertical_Bottom",
-			"WaterBlock_Horizontal",
-			"WaterBlock_Horizontal_Left",
-			"WaterBlock_Horizontal_Right",
-			"WaterBlock_Top_Left",
-			"WaterBlock_Top_Right",
-			"WaterBlock_Bottom_Right",
-			"WaterBlock_Bottom_Left",
-			"Main_Font",
 			"Black",
-			"Browser",
-			"Star_Button",
-			"Main_Font_About",
-			"Soldier",
-			"Soldier_Bullet",
 			"Blood",
-			"Soldier_House",
 			"Player",
-			"Player_Bullet",
-			"SH_Healthbar",
-			"Function",
-			"Explosion_Building",
-			"HP_Green_Sprite",
-			"HP_Gray_Sprite",
-			"WeaponS",
-			"Big_Box",
-			"Small_Box",
-			"Weapons_Ammos",
 			"Gray_Bars",
 			"Aim",
-			"Bang_Bang",
-			"Shassie",
-			"UIText"
+			"Shassie"
 		],
 		"subfolders": [
 			{
 				"items": [
-					"Background_MM",
-					"UIButton"
+					"Background_UI",
+					"UIButton",
+					"Weapons_Ammos",
+					"BulletText",
+					"FuelText",
+					"MGText",
+					"HP_Gray_Sprite",
+					"Main_Font",
+					"HP_Green_Sprite",
+					"HPSprite",
+					"HPContainer",
+					"Log",
+					"Red_Amount_Left",
+					"Score",
+					"UIText",
+					"SH_Healthbar",
+					"ScoreContainer",
+					"Star_Button",
+					"Big_Box",
+					"Small_Box"
 				],
 				"subfolders": [],
 				"name": "UI"
+			},
+			{
+				"items": [
+					"Acc_Boost",
+					"Dmg_Boost",
+					"MG_Boost",
+					"Range_Boost",
+					"Time_Boost"
+				],
+				"subfolders": [],
+				"name": "Boosters"
+			},
+			{
+				"items": [
+					"Bang_Bang",
+					"Cloud_Spawn",
+					"Explosion_Building",
+					"Explosion_Bullet",
+					"Explosion_Tank",
+					"Napalm",
+					"Smoke_4walls",
+					"Smoke_Bronze",
+					"Smoke_Silver",
+					"Spark_Orange",
+					"Spark_Red"
+				],
+				"subfolders": [],
+				"name": "Particles"
+			},
+			{
+				"items": [
+					"Bullet",
+					"enemy_bullet",
+					"enemy_turret_bullet",
+					"MG_Bullet",
+					"Player_Bullet",
+					"Soldier_Bullet"
+				],
+				"subfolders": [],
+				"name": "Bullets"
+			},
+			{
+				"items": [
+					"Tree1",
+					"Tree2",
+					"Tree3"
+				],
+				"subfolders": [],
+				"name": "Trees"
+			},
+			{
+				"items": [
+					"WallsBronze",
+					"WallsBronze_Bottom",
+					"WallsBronze_BottomLeft",
+					"WallsBronze_BottomRIght",
+					"WallsBronze_Left",
+					"WallsBronze_Right",
+					"WallsBronze_Top",
+					"WallsBronze_TopLeft",
+					"WallsBronze_TopRight",
+					"WallsSilver",
+					"FourWalls"
+				],
+				"subfolders": [],
+				"name": "Walls"
+			},
+			{
+				"items": [
+					"WaterBG",
+					"WaterBG2",
+					"WaterBlock",
+					"WaterBlock_Bottom_Left",
+					"WaterBlock_Bottom_Right",
+					"WaterBlock_Horizontal",
+					"WaterBlock_Horizontal_Left",
+					"WaterBlock_Horizontal_Right",
+					"WaterBlock_Top_Left",
+					"WaterBlock_Top_Right",
+					"WaterBlock_Vertical",
+					"WaterBlock_Vertical_Bottom",
+					"WaterBlock_Vertical_Top"
+				],
+				"subfolders": [],
+				"name": "Water"
+			},
+			{
+				"items": [
+					"Browser",
+					"Function",
+					"Keyboard",
+					"LocalStorage",
+					"Mouse"
+				],
+				"subfolders": [],
+				"name": "MISC"
+			},
+			{
+				"items": [
+					"enemy_corpse",
+					"enemy_tower",
+					"Enemy_Turret",
+					"MineBoom",
+					"Soldier",
+					"Soldier_House",
+					"WeaponS"
+				],
+				"subfolders": [],
+				"name": "Enemies"
 			}
 		]
 	},

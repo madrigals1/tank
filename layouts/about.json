@@ -51,51 +51,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Main_Font_About",
-					"properties": {
-						"text": "ADI SABYRBAYEV",
-						"enable-bbcode": false,
-						"character-width": 12,
-						"character-height": 21,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
-						"spacing-data": "",
-						"scale": 4,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "character",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 119,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Inverse": {
-							"parameters": {
-								"intensity": 2
-							}
-						}
-					},
-					"world": {
-						"x": 448,
-						"y": 640,
-						"width": 768,
-						"height": 128,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 6278076979657952,
@@ -127,37 +82,76 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Main_Font_About",
+					"type": "UIText",
 					"properties": {
 						"text": "THIS GAME IS MADE BY",
-						"enable-bbcode": false,
-						"character-width": 12,
-						"character-height": 21,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>АБВГДЕЖЗИКЛМНОПРСТУФХЦЧЩШЬЪЭЮЯЫ",
-						"spacing-data": "",
-						"scale": 3.5,
-						"character-spacing": 0,
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
 						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.7294117647058823,
+							0.15294117647058825,
+							0.07450980392156863,
+							1
+						],
 						"horizontal-alignment": "center",
 						"vertical-alignment": "center",
-						"wrapping": "character",
+						"wrapping": "word",
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 122,
+					"uid": 101,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Inverse": {
-							"parameters": {
-								"intensity": 2
-							}
-						}
-					},
 					"world": {
-						"x": 384,
-						"y": 192,
-						"width": 896,
+						"x": 450,
+						"y": 149,
+						"width": 754,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIText",
+					"properties": {
+						"text": "ADI SABYRBAYEV",
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.7294117647058823,
+							0.15294117647058825,
+							0.07450980392156863,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 102,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 463,
+						"y": 650,
+						"width": 754,
 						"height": 128,
 						"originX": 0,
 						"originY": 0,

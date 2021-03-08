@@ -1,9 +1,9 @@
 {
-	"name": "test_es",
+	"name": "Test_es",
 	"events": [
 		{
 			"eventType": "include",
-			"includeSheet": "main_es"
+			"includeSheet": "Main_es"
 		},
 		{
 			"eventType": "group",

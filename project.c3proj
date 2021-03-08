@@ -433,7 +433,7 @@
 	},
 	"eventSheets": {
 		"items": [
-			"main_es"
+			"Main_es"
 		],
 		"subfolders": [
 			{
@@ -456,7 +456,7 @@
 			},
 			{
 				"items": [
-					"test_es"
+					"Test_es"
 				],
 				"subfolders": [],
 				"name": "Tech"

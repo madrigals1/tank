@@ -2,10 +2,6 @@
 	"name": "MainMenu_es",
 	"events": [
 		{
-			"eventType": "include",
-			"includeSheet": "Main_es"
-		},
-		{
 			"eventType": "block",
 			"conditions": [
 				{

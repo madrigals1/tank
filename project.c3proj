@@ -433,7 +433,8 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Main_es"
+			"Main ES",
+			"Constants ES"
 		],
 		"subfolders": [
 			{

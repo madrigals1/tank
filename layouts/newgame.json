@@ -772,7 +772,7 @@
 				{
 					"type": "UIText",
 					"properties": {
-						"text": "EXIT",
+						"text": "BACK",
 						"enable-bbcode": true,
 						"font": "kenvector_future2",
 						"size": 32,

@@ -1,0 +1,624 @@
+{
+	"name": "Constants ES",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 339777834171918
+		},
+		{
+			"eventType": "comment",
+			"text": "For 960 px Width"
+		},
+		{
+			"eventType": "variable",
+			"name": "HP_Container_x",
+			"type": "number",
+			"initialValue": "509",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3339822010748486
+		},
+		{
+			"eventType": "variable",
+			"name": "HP_Container_y",
+			"type": "number",
+			"initialValue": "32",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6922987672707324
+		},
+		{
+			"eventType": "variable",
+			"name": "HP_Sprite_x",
+			"type": "number",
+			"initialValue": "384",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 1020210787659307
+		},
+		{
+			"eventType": "variable",
+			"name": "HP_Sprite_y",
+			"type": "number",
+			"initialValue": "32",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3372594588689081
+		},
+		{
+			"eventType": "variable",
+			"name": "Score_And_Container_x",
+			"type": "number",
+			"initialValue": "800",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 2651486475407534
+		},
+		{
+			"eventType": "variable",
+			"name": "Score_And_Container_y",
+			"type": "number",
+			"initialValue": "32",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 4066104345915198
+		},
+		{
+			"eventType": "variable",
+			"name": "Red_AL_x",
+			"type": "number",
+			"initialValue": "960",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 5621878282939143
+		},
+		{
+			"eventType": "variable",
+			"name": "Red_AL_y",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 8991984627260359
+		},
+		{
+			"eventType": "variable",
+			"name": "Log_x",
+			"type": "number",
+			"initialValue": "1062",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 4131952895508485
+		},
+		{
+			"eventType": "variable",
+			"name": "Log_y",
+			"type": "number",
+			"initialValue": "866",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6656908722233042
+		},
+		{
+			"eventType": "comment",
+			"text": "Enemy \"RED\""
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_RED_Spawnable",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "Determines whether any RED will spawn on the current map or not",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 7835994084793051
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Amount_Max",
+			"type": "number",
+			"initialValue": "25",
+			"comment": "Total Amount of REDs",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 4219891013617453
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Amount",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "Amount of REDs spawned yet",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3017503960394398
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Amount_Left",
+			"type": "number",
+			"initialValue": "25",
+			"comment": "Amount of REDs left",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 9805652442044574
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Amount_Left_UI",
+			"type": "number",
+			"initialValue": "25",
+			"comment": "Amount of REDs left for UI",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3095069879273843
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Amount_Killed",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "Amount of REDs killed",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6513091629613912
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Bullet_Accuracy",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "Accuracy in Degrees for RED bullet",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 9485894333591778
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_Bullet_Damage",
+			"type": "number",
+			"initialValue": "25",
+			"comment": "Damage of RED bullet",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 8239810202446849
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn1_x",
+			"type": "number",
+			"initialValue": "811",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 31152025091074
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn2_x",
+			"type": "number",
+			"initialValue": "389",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 5535691239602945
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn3_x",
+			"type": "number",
+			"initialValue": "1179",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3292698803111312
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn4_x",
+			"type": "number",
+			"initialValue": "1568",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 646928531006806
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn5_x",
+			"type": "number",
+			"initialValue": "514",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6347187358256333
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn6_x",
+			"type": "number",
+			"initialValue": "157",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 5142901576163345
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn1_y",
+			"type": "number",
+			"initialValue": "132",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3161681790732992
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn2_y",
+			"type": "number",
+			"initialValue": "541",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 1034386073967029
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn3_y",
+			"type": "number",
+			"initialValue": "538",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 8447530875540932
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn4_y",
+			"type": "number",
+			"initialValue": "98",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3599531479856595
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn5_y",
+			"type": "number",
+			"initialValue": "982",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 2636595734641866
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Red_spawn6_y",
+			"type": "number",
+			"initialValue": "1444",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 9408166154800236
+		},
+		{
+			"eventType": "comment",
+			"text": "Enemy \"TURRET\""
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_Rotate_Speed",
+			"type": "number",
+			"initialValue": "180",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 1353271326156687
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_Damage",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 8701531448964789
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_Range",
+			"type": "number",
+			"initialValue": "800",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 8210250684451483
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_FireRate",
+			"type": "number",
+			"initialValue": "2",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 471651305945066
+		},
+		{
+			"eventType": "comment",
+			"text": "Enemy \"Soldier\""
+		},
+		{
+			"eventType": "variable",
+			"name": "Soldier_Fire_Rate",
+			"type": "number",
+			"initialValue": "0.05",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6962527893456744
+		},
+		{
+			"eventType": "variable",
+			"name": "Soldier_Damage",
+			"type": "number",
+			"initialValue": "0.25",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3484069644115604
+		},
+		{
+			"eventType": "variable",
+			"name": "Soldier_MAX_Ammo",
+			"type": "number",
+			"initialValue": "15",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3738859325352457
+		},
+		{
+			"eventType": "variable",
+			"name": "Soldier_ID",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 3399546351812259
+		},
+		{
+			"eventType": "variable",
+			"name": "Soldier_Range",
+			"type": "number",
+			"initialValue": "150",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 6886636896008477
+		},
+		{
+			"eventType": "comment",
+			"text": "Buildings"
+		},
+		{
+			"eventType": "variable",
+			"name": "ID_Building_SH",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 2720715178795163
+		},
+		{
+			"eventType": "comment",
+			"text": "Tank Changeable Variables"
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_HP",
+			"type": "number",
+			"initialValue": "250",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 755204213482113
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Bullet_Damage",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 765391984283984
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Bullet_FireRate",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 835510797543894
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Bullet_Accuracy",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 995674989451551
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_MG_Ammo_MAX",
+			"type": "number",
+			"initialValue": "150",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 146012050067825
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_MG_Damage",
+			"type": "number",
+			"initialValue": "2.5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 425449212757641
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_MG_FireRate",
+			"type": "number",
+			"initialValue": "0.05",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 813339764083983
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_MG_Accuracy",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 309932606743645
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_MG_Accuracy_moving",
+			"type": "number",
+			"initialValue": "2",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 187748711325117
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Napalm_Fuel",
+			"type": "number",
+			"initialValue": "500",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 879833454209349
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Napalm_Latency",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 774652402158512
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Napalm_FireRate",
+			"type": "number",
+			"initialValue": "0.05",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 815646555395436
+		},
+		{
+			"eventType": "variable",
+			"name": "Tank_Napalm_Damage",
+			"type": "number",
+			"initialValue": "2",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 395059334377644
+		},
+		{
+			"eventType": "comment",
+			"text": "Player Changeable Variables"
+		},
+		{
+			"eventType": "variable",
+			"name": "Rifler_HP",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 593234303256928
+		},
+		{
+			"eventType": "variable",
+			"name": "Rifler_Rifle_Ammo_MAX",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 699025922093649
+		},
+		{
+			"eventType": "variable",
+			"name": "Rifler_Rifle_Damage",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 330552236609689
+		},
+		{
+			"eventType": "variable",
+			"name": "Rifler_Rifle_FireRate",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 261024488064254
+		},
+		{
+			"eventType": "variable",
+			"name": "Rifler_Rifle_Accuracy",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 496617083373114
+		}
+	],
+	"sid": 925047927100303
+}

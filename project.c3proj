@@ -396,8 +396,8 @@
 		"subfolders": [
 			{
 				"items": [
-					"MainMenu",
-					"NewGame",
+					"Main Menu",
+					"New Game",
 					"About"
 				],
 				"subfolders": [],
@@ -405,26 +405,26 @@
 			},
 			{
 				"items": [
-					"lvl01_1990",
-					"lvl02_1990",
-					"lvl03_1990"
+					"Level 01",
+					"Level 02",
+					"Level 03"
 				],
 				"subfolders": [],
 				"name": "Levels_Classic"
 			},
 			{
 				"items": [
-					"test",
-					"level00"
+					"Test",
+					"Object Container"
 				],
 				"subfolders": [],
 				"name": "Tech"
 			},
 			{
 				"items": [
-					"level20_dirtsand",
-					"level15_dirt",
-					"level04_antisoldier"
+					"Level 20 Dirtsand",
+					"Level 15 Dirt",
+					"Level 04 Double Base"
 				],
 				"subfolders": [],
 				"name": "Levels_NR"
@@ -449,23 +449,23 @@
 			},
 			{
 				"items": [
-					"lvl01_es",
-					"lvl02_es",
-					"lvl03_es"
+					"Level 01 ES",
+					"Level 02 ES",
+					"Level 03 ES"
 				],
 				"subfolders": [],
 				"name": "Levels_Classic"
 			},
 			{
 				"items": [
-					"Test_es"
+					"Test ES"
 				],
 				"subfolders": [],
 				"name": "Tech"
 			},
 			{
 				"items": [
-					"level15_es"
+					"Level 15 ES"
 				],
 				"subfolders": [],
 				"name": "Levels_NR"
@@ -615,5 +615,5 @@
 	},
 	"viewportWidth": 1708,
 	"viewportHeight": 960,
-	"firstLayout": "MainMenu"
+	"firstLayout": "Main Menu"
 }

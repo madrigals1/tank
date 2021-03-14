@@ -1,5 +1,5 @@
 {
-	"name": "lvl03_es",
+	"name": "Level 01 ES",
 	"events": [
 		{
 			"eventType": "include",
@@ -11,14 +11,22 @@
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
-					"sid": 9448577900896380
+					"sid": 1631120711690792
 				}
 			],
 			"actions": [
 				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 460886674437157,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				},
+				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 4705775408425265,
+					"sid": 5271951403418866,
 					"parameters": {
 						"object-to-create": "HPContainer",
 						"layer": "\"UI_Info\"",
@@ -30,7 +38,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 7263060591790608,
+					"sid": 2852501323022263,
 					"parameters": {
 						"object-to-create": "HPSprite",
 						"layer": "\"UI_Info\"",
@@ -42,7 +50,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 5964475825266773,
+					"sid": 3815654566192749,
 					"parameters": {
 						"object-to-create": "ScoreContainer",
 						"layer": "\"UI_Info\"",
@@ -54,7 +62,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 6414971541259686,
+					"sid": 3598599187450054,
 					"parameters": {
 						"object-to-create": "Score",
 						"layer": "\"UI_Info\"",
@@ -66,7 +74,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 4766211821653029,
+					"sid": 2438458356861372,
 					"parameters": {
 						"object-to-create": "Red_Amount_Left",
 						"layer": "\"UI_Info\"",
@@ -78,7 +86,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 972028426421807,
+					"sid": 910838526870543,
 					"parameters": {
 						"object-to-create": "Gray_Bars",
 						"layer": "\"Background\"",
@@ -90,7 +98,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 209256632625955,
+					"sid": 833076947828780,
 					"parameters": {
 						"object-to-create": "Gray_Bars",
 						"layer": "\"Background\"",
@@ -102,7 +110,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 356349556109936,
+					"sid": 752600438744288,
 					"parameters": {
 						"object-to-create": "WeaponS",
 						"layer": "\"UI_Info\"",
@@ -114,7 +122,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 164537391164901,
+					"sid": 700087674660570,
 					"parameters": {
 						"object-to-create": "Weapons_Ammos",
 						"layer": "\"UI_Info\"",
@@ -126,7 +134,7 @@
 				{
 					"id": "set-font-size",
 					"objectClass": "Weapons_Ammos",
-					"sid": 426669498307972,
+					"sid": 308674401227236,
 					"parameters": {
 						"size-pt": "48"
 					}
@@ -134,7 +142,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 130756602732836,
+					"sid": 774775342086863,
 					"parameters": {
 						"object-to-create": "Big_Box",
 						"layer": "\"UI_Boxes\"",
@@ -146,7 +154,7 @@
 				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 994971187442075,
+					"sid": 457570240558041,
 					"parameters": {
 						"object-to-create": "Small_Box",
 						"layer": "\"UI_Boxes\"",
@@ -156,9 +164,21 @@
 					}
 				},
 				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 837824180603845,
+					"parameters": {
+						"object-to-create": "Log",
+						"layer": "\"UI_Info\"",
+						"x": "Log_X",
+						"y": "Log_Y",
+						"create-hierarchy": false
+					}
+				},
+				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 9697650624394736,
+					"sid": 374093402091296,
 					"parameters": {
 						"variable": "Enemy_RED_Spawnable",
 						"value": "1"
@@ -167,16 +187,16 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 4579006620495535,
+					"sid": 703159936819764,
 					"parameters": {
 						"variable": "Enemy_Red_Amount_Max",
-						"value": "35"
+						"value": "25"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 2763250254890225,
+					"sid": 800469669399491,
 					"parameters": {
 						"variable": "Enemy_Red_Amount",
 						"value": "0"
@@ -185,7 +205,7 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 6908792872497103,
+					"sid": 830520782315053,
 					"parameters": {
 						"variable": "Enemy_Red_Amount_Killed",
 						"value": "0"
@@ -194,132 +214,132 @@
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 5187163008387427,
+					"sid": 824352456234497,
 					"parameters": {
 						"variable": "Enemy_Red_Amount_Left",
-						"value": "35"
+						"value": "25"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 1057020904838696,
+					"sid": 985218873546796,
 					"parameters": {
 						"variable": "Enemy_Red_Amount_Left_UI",
-						"value": "35"
+						"value": "25"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 8169708335049404,
+					"sid": 577576336366230,
 					"parameters": {
 						"variable": "Enemy_Red_spawn1_x",
-						"value": "448"
+						"value": "690"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 9107178547489552,
+					"sid": 800681866809308,
 					"parameters": {
 						"variable": "Enemy_Red_spawn1_y",
-						"value": "96"
+						"value": "92"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 1029112014538063,
+					"sid": 494402939891693,
 					"parameters": {
 						"variable": "Enemy_Red_spawn2_x",
-						"value": "448"
+						"value": "965"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 2026611158492836,
+					"sid": 856509923879564,
 					"parameters": {
 						"variable": "Enemy_Red_spawn2_y",
-						"value": "480"
+						"value": "92"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 562922995106414,
+					"sid": 770470606929246,
 					"parameters": {
 						"variable": "Enemy_Red_spawn3_x",
-						"value": "448"
+						"value": "416"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 5505316404369194,
+					"sid": 100539519927094,
 					"parameters": {
 						"variable": "Enemy_Red_spawn3_y",
-						"value": "864"
+						"value": "543"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 6275449067522987,
+					"sid": 454172103864821,
 					"parameters": {
 						"variable": "Enemy_Red_spawn4_x",
-						"value": "1152"
+						"value": "416"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 548432112048237,
+					"sid": 857628002803998,
 					"parameters": {
 						"variable": "Enemy_Red_spawn4_y",
-						"value": "96"
+						"value": "413"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 1522976306211232,
+					"sid": 883510554379818,
 					"parameters": {
 						"variable": "Enemy_Red_spawn5_x",
-						"value": "1152"
+						"value": "1180"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 3524322578597933,
+					"sid": 787488759975570,
 					"parameters": {
 						"variable": "Enemy_Red_spawn5_y",
-						"value": "480"
+						"value": "543"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 1197435076426058,
+					"sid": 302975907688526,
 					"parameters": {
 						"variable": "Enemy_Red_spawn6_x",
-						"value": "1152"
+						"value": "1180"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 5479822753647226,
+					"sid": 534332030775488,
 					"parameters": {
 						"variable": "Enemy_Red_spawn6_y",
-						"value": "672"
+						"value": "413"
 					}
 				}
 			],
-			"sid": 8859063540097413
+			"sid": 9994478761366198
 		}
 	],
-	"sid": 927922310147568
+	"sid": 590441848307244
 }

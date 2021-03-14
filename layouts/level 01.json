@@ -1,5 +1,5 @@
 {
-	"name": "lvl01_1990",
+	"name": "Level 01",
 	"layers": [
 		{
 			"name": "BackGround",
@@ -4239,5 +4239,5 @@
 	"width": 1664,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "lvl01_es"
+	"eventSheet": "Level 01 ES"
 }

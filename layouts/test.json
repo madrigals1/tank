@@ -1,5 +1,5 @@
 {
-	"name": "test",
+	"name": "Test",
 	"layers": [
 		{
 			"name": "BackGround",
@@ -998,5 +998,5 @@
 	"width": 1706,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "test_es"
+	"eventSheet": "Test ES"
 }

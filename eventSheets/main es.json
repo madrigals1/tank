@@ -3,14 +3,14 @@
 	"events": [
 		{
 			"eventType": "group",
-			"disabled": false,
+			"disabled": true,
 			"title": "System",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
-					"disabled": false,
+					"disabled": true,
 					"title": "System - Load, Save, Restart",
 					"description": "",
 					"isActiveOnStart": true,
@@ -34,7 +34,8 @@
 									}
 								}
 							],
-							"sid": 642668140499179
+							"sid": 642668140499179,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -82,7 +83,8 @@
 									}
 								}
 							],
-							"sid": 334516751579703
+							"sid": 334516751579703,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -130,7 +132,8 @@
 									}
 								}
 							],
-							"sid": 185642273384919
+							"sid": 185642273384919,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -178,7 +181,8 @@
 									}
 								}
 							],
-							"sid": 520968582125637
+							"sid": 520968582125637,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -198,18 +202,19 @@
 									"objectClass": "System",
 									"sid": 455654655198806,
 									"parameters": {
-										"layout": "MainMenu"
+										"layout": "Main Menu"
 									}
 								}
 							],
-							"sid": 483350265216603
+							"sid": 483350265216603,
+							"disabled": true
 						}
 					],
 					"sid": 389315090815061
 				},
 				{
 					"eventType": "group",
-					"disabled": false,
+					"disabled": true,
 					"title": "System - Next Level",
 					"description": "",
 					"isActiveOnStart": true,
@@ -257,7 +262,8 @@
 									}
 								}
 							],
-							"sid": 176579326467988
+							"sid": 176579326467988,
+							"disabled": true
 						},
 						{
 							"eventType": "block",
@@ -281,28 +287,29 @@
 									}
 								}
 							],
-							"sid": 255721561367172
+							"sid": 255721561367172,
+							"disabled": true
 						}
 					],
 					"sid": 625568915840528
 				},
 				{
 					"eventType": "group",
-					"disabled": false,
+					"disabled": true,
 					"title": "System - Controls",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
-							"disabled": false,
+							"disabled": true,
 							"title": "Keyboard simulators",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
 								{
 									"eventType": "group",
-									"disabled": false,
+									"disabled": true,
 									"title": "KeySim_Tank",
 									"description": "",
 									"isActiveOnStart": true,
@@ -330,7 +337,8 @@
 													}
 												}
 											],
-											"sid": 435566513517381
+											"sid": 435566513517381,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -355,7 +363,8 @@
 													}
 												}
 											],
-											"sid": 133165388134836
+											"sid": 133165388134836,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -380,7 +389,8 @@
 													}
 												}
 											],
-											"sid": 882456628698041
+											"sid": 882456628698041,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -405,7 +415,8 @@
 													}
 												}
 											],
-											"sid": 227283339017057
+											"sid": 227283339017057,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -430,14 +441,15 @@
 													}
 												}
 											],
-											"sid": 817032676303663
+											"sid": 817032676303663,
+											"disabled": true
 										}
 									],
 									"sid": 867482118839675
 								},
 								{
 									"eventType": "group",
-									"disabled": false,
+									"disabled": true,
 									"title": "KeySim_Player",
 									"description": "",
 									"isActiveOnStart": false,
@@ -465,7 +477,8 @@
 													}
 												}
 											],
-											"sid": 304213594883059
+											"sid": 304213594883059,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -490,7 +503,8 @@
 													}
 												}
 											],
-											"sid": 260087920440806
+											"sid": 260087920440806,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -515,7 +529,8 @@
 													}
 												}
 											],
-											"sid": 977300546109073
+											"sid": 977300546109073,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -540,7 +555,8 @@
 													}
 												}
 											],
-											"sid": 955218178510466
+											"sid": 955218178510466,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -565,7 +581,8 @@
 													}
 												}
 											],
-											"sid": 630394031388463
+											"sid": 630394031388463,
+											"disabled": true
 										}
 									],
 									"sid": 698242460531779
@@ -575,7 +592,7 @@
 						},
 						{
 							"eventType": "group",
-							"disabled": false,
+							"disabled": true,
 							"title": "Switch weapon",
 							"description": "",
 							"isActiveOnStart": true,
@@ -621,7 +638,8 @@
 											}
 										}
 									],
-									"sid": 865361059685208
+									"sid": 865361059685208,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -664,7 +682,8 @@
 											}
 										}
 									],
-									"sid": 479267857169418
+									"sid": 479267857169418,
+									"disabled": true
 								},
 								{
 									"eventType": "block",
@@ -707,7 +726,8 @@
 											}
 										}
 									],
-									"sid": 355814371632651
+									"sid": 355814371632651,
+									"disabled": true
 								}
 							],
 							"sid": 771722415966598
@@ -717,7 +737,7 @@
 				},
 				{
 					"eventType": "group",
-					"disabled": false,
+					"disabled": true,
 					"title": "System - Leftovers",
 					"description": "",
 					"isActiveOnStart": true,
@@ -744,7 +764,8 @@
 									}
 								}
 							],
-							"sid": 945475573674145
+							"sid": 945475573674145,
+							"disabled": true
 						}
 					],
 					"sid": 883443041092686

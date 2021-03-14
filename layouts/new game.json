@@ -1,5 +1,5 @@
 {
-	"name": "MainMenu",
+	"name": "New Game",
 	"layers": [
 		{
 			"name": "Background",
@@ -14,7 +14,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 834,
+					"uid": 92,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -35,7 +35,7 @@
 					}
 				}
 			],
-			"sid": 6518601818992339,
+			"sid": 3516470386099881,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -60,7 +60,35 @@
 			"global": false
 		},
 		{
-			"name": "Main",
+			"name": "Buttons",
+			"overriden": 0,
+			"instances": [],
+			"sid": 951248679744123,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"global": false
+		},
+		{
+			"name": "Texts",
 			"overriden": 0,
 			"instances": [
 				{
@@ -72,10 +100,206 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 84,
+					"uid": 2,
+					"instanceVariables": {
+						"id": 8,
+						"color": "red"
+					},
+					"behaviors": {},
+					"effects": {
+						"Contrast": {
+							"parameters": {
+								"contrast": 1
+							}
+						},
+						"Tint": {
+							"parameters": {
+								"color": [
+									0.9921568627450981,
+									0.8901960784313725,
+									0.5254901960784314,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 1240,
+						"y": 678,
+						"width": 680,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIButton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "green - Not pressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {
+						"id": 7,
+						"color": "green"
+					},
+					"behaviors": {},
+					"effects": {
+						"Contrast": {
+							"parameters": {
+								"contrast": 1
+							}
+						},
+						"Tint": {
+							"parameters": {
+								"color": [
+									0.9921568627450981,
+									0.8901960784313725,
+									0.5254901960784314,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 1240,
+						"y": 538,
+						"width": 680,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIButton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "green - Not pressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {
+						"id": 6,
+						"color": "green"
+					},
+					"behaviors": {},
+					"effects": {
+						"Contrast": {
+							"parameters": {
+								"contrast": 1
+							}
+						},
+						"Tint": {
+							"parameters": {
+								"color": [
+									0.9921568627450981,
+									0.8901960784313725,
+									0.5254901960784314,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 1240,
+						"y": 398,
+						"width": 680,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIButton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "green - Not pressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {
+						"id": 5,
+						"color": "green"
+					},
+					"behaviors": {},
+					"effects": {
+						"Contrast": {
+							"parameters": {
+								"contrast": 1
+							}
+						},
+						"Tint": {
+							"parameters": {
+								"color": [
+									0.9921568627450981,
+									0.8901960784313725,
+									0.5254901960784314,
+									1
+								]
+							}
+						}
+					},
+					"world": {
+						"x": 1240,
+						"y": 258,
+						"width": 680,
+						"height": 132,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIButton",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "green - Not pressed",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 85,
 					"instanceVariables": {
 						"id": 4,
-						"color": "red"
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -121,7 +345,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 77,
+					"uid": 86,
 					"instanceVariables": {
 						"id": 3,
 						"color": "green"
@@ -170,7 +394,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 694,
+					"uid": 699,
 					"instanceVariables": {
 						"id": 2,
 						"color": "green"
@@ -219,7 +443,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 128,
+					"uid": 703,
 					"instanceVariables": {
 						"id": 1,
 						"color": "green"
@@ -262,7 +486,7 @@
 				{
 					"type": "UIText",
 					"properties": {
-						"text": "NEW GAME",
+						"text": "TANK 1990",
 						"enable-bbcode": true,
 						"font": "kenvector_future2",
 						"size": 32,
@@ -281,7 +505,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 95,
+					"uid": 69,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -304,7 +528,7 @@
 				{
 					"type": "UIText",
 					"properties": {
-						"text": "CONTINUE",
+						"text": "ARCADE",
 						"enable-bbcode": true,
 						"font": "kenvector_future2",
 						"size": 32,
@@ -323,7 +547,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 34,
+					"uid": 96,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -346,7 +570,7 @@
 				{
 					"type": "UIText",
 					"properties": {
-						"text": "ABOUT",
+						"text": "TURRET TANKS",
 						"enable-bbcode": true,
 						"font": "kenvector_future2",
 						"size": 32,
@@ -365,7 +589,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 65,
+					"uid": 97,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -388,7 +612,7 @@
 				{
 					"type": "UIText",
 					"properties": {
-						"text": "EXIT",
+						"text": "DOUBLE BASE",
 						"enable-bbcode": true,
 						"font": "kenvector_future2",
 						"size": 32,
@@ -396,9 +620,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -407,7 +631,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 68,
+					"uid": 100,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -426,9 +650,177 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "UIText",
+					"properties": {
+						"text": "2 TANKS",
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1112,
+						"y": 192,
+						"width": 384,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIText",
+					"properties": {
+						"text": "ONLINE",
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1112,
+						"y": 332,
+						"width": 384,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIText",
+					"properties": {
+						"text": "TEST",
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1112,
+						"y": 472,
+						"width": 384,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UIText",
+					"properties": {
+						"text": "BACK",
+						"enable-bbcode": true,
+						"font": "kenvector_future2",
+						"size": 32,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							0.7294117647058823,
+							0.15294117647058825,
+							0.07450980392156863,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1112,
+						"y": 612,
+						"width": 384,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 3798419946113635,
+			"sid": 2299553613747564,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -453,11 +845,11 @@
 			"global": false
 		}
 	],
-	"sid": 8605319373026931,
+	"sid": 3468969810139154,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "MainMenu ES"
+	"eventSheet": "New Game ES"
 }

@@ -1,5 +1,5 @@
 {
-	"name": "level15_dirt",
+	"name": "Level 15 Dirt",
 	"layers": [
 		{
 			"name": "BackGround",
@@ -15669,5 +15669,5 @@
 	"width": 2240,
 	"height": 2240,
 	"unboundedScrolling": false,
-	"eventSheet": "level15_es"
+	"eventSheet": "Level 15 ES"
 }

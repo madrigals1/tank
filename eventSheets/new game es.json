@@ -51,7 +51,7 @@
 							"objectClass": "System",
 							"sid": 903354445695901,
 							"parameters": {
-								"layout": "lvl01_1990"
+								"layout": "Level 01"
 							}
 						}
 					],
@@ -111,7 +111,7 @@
 							"objectClass": "System",
 							"sid": 791612145866325,
 							"parameters": {
-								"layout": "test"
+								"layout": "Test"
 							}
 						}
 					],
@@ -188,7 +188,7 @@
 							"objectClass": "System",
 							"sid": 651643950525817,
 							"parameters": {
-								"layout": "MainMenu"
+								"layout": "Main Menu"
 							}
 						}
 					],

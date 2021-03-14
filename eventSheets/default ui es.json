@@ -1,0 +1,161 @@
+{
+	"name": "Default UI ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 270035413248033,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "UIButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "UIButton",
+					"sid": 855716612648687,
+					"parameters": {
+						"animation": "UIButton.color & \" - Pressed\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 428098899042384,
+					"parameters": {
+						"seconds": "0.3"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "UIButton",
+					"sid": 986168524342236,
+					"parameters": {
+						"animation": "UIButton.color & \" - Not Pressed\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 595015956955843
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 844616609841560,
+					"parameters": {
+						"object": "UIButton"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 558565027395199,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 131024389095570,
+							"parameters": {
+								"object": "UIButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "UIButton",
+							"sid": 254581708825125,
+							"parameters": {
+								"effect": "\"Contrast\"",
+								"parameter-index": "0",
+								"value": "150"
+							}
+						}
+					],
+					"sid": 855083930523841
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 237700963517117
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "UIButton",
+							"sid": 536044607558729,
+							"parameters": {
+								"effect": "\"Contrast\"",
+								"parameter-index": "0",
+								"value": "100"
+							}
+						}
+					],
+					"sid": 504422167168010
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 555380530100283
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 236300095900108
+				}
+			],
+			"sid": 939410110216846,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "for-each",
+							"objectClass": "System",
+							"sid": 647820425703351,
+							"parameters": {
+								"object": "UIButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "UIButton",
+							"sid": 186398508015615,
+							"parameters": {
+								"animation": "UIButton.color & \" - Not Pressed\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 331186451670926
+				}
+			]
+		}
+	],
+	"sid": 531951203200476
+}

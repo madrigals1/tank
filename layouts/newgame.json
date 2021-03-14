@@ -95,14 +95,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 2,
 					"instanceVariables": {
-						"id": 8
+						"id": 8,
+						"color": "red"
 					},
 					"behaviors": {},
 					"effects": {
@@ -143,14 +144,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 4,
 					"instanceVariables": {
-						"id": 7
+						"id": 7,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -191,14 +193,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 14,
 					"instanceVariables": {
-						"id": 6
+						"id": 6,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -239,14 +242,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 22,
 					"instanceVariables": {
-						"id": 5
+						"id": 5,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -287,14 +291,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 85,
 					"instanceVariables": {
-						"id": 4
+						"id": 4,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -335,14 +340,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 86,
 					"instanceVariables": {
-						"id": 3
+						"id": 3,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -383,14 +389,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 699,
 					"instanceVariables": {
-						"id": 2
+						"id": 2,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -431,14 +438,15 @@
 					"type": "UIButton",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Not pressed",
+						"initial-animation": "green - Not pressed",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 703,
 					"instanceVariables": {
-						"id": 1
+						"id": 1,
+						"color": "green"
 					},
 					"behaviors": {},
 					"effects": {
@@ -486,9 +494,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -528,9 +536,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -570,9 +578,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -612,9 +620,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -654,9 +662,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -696,9 +704,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -738,9 +746,9 @@
 						"bold": true,
 						"italic": false,
 						"color": [
-							0.7294117647058823,
-							0.15294117647058825,
-							0.07450980392156863,
+							0.4196078431372549,
+							0.807843137254902,
+							0.11372549019607843,
 							1
 						],
 						"horizontal-alignment": "center",
@@ -843,5 +851,5 @@
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "NewGame_es"
+	"eventSheet": "New Game ES"
 }

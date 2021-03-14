@@ -439,9 +439,10 @@
 		"subfolders": [
 			{
 				"items": [
-					"About_es",
-					"NewGame_es",
-					"MainMenu_es"
+					"About ES",
+					"New Game ES",
+					"MainMenu ES",
+					"Default UI ES"
 				],
 				"subfolders": [],
 				"name": "Menu"

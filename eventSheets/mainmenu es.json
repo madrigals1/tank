@@ -1,6 +1,10 @@
 {
-	"name": "MainMenu_es",
+	"name": "MainMenu ES",
 	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Default UI ES"
+		},
 		{
 			"eventType": "block",
 			"conditions": [
@@ -17,18 +21,9 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "UIButton",
-					"sid": 245398007866138,
-					"parameters": {
-						"animation": "\"Pressed\"",
-						"from": "beginning"
-					}
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 755415928899690,
+					"sid": 453399428036991,
 					"parameters": {
 						"seconds": "0.3"
 					}
@@ -138,90 +133,6 @@
 					"sid": 808670801740095
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "for-each",
-					"objectClass": "System",
-					"sid": 114951085910093,
-					"parameters": {
-						"object": "UIButton"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 363996558578008,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 973080303226603,
-							"parameters": {
-								"object": "UIButton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-parameter",
-							"objectClass": "UIButton",
-							"sid": 517555737981421,
-							"parameters": {
-								"effect": "\"Contrast\"",
-								"parameter-index": "0",
-								"value": "150"
-							}
-						}
-					],
-					"sid": 374811831053581
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 924644819667774
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-parameter",
-							"objectClass": "UIButton",
-							"sid": 369866561725677,
-							"parameters": {
-								"effect": "\"Contrast\"",
-								"parameter-index": "0",
-								"value": "100"
-							}
-						}
-					],
-					"sid": 737154827513223
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 224416828953679
-				}
-			],
-			"actions": [
-				{
-					"id": "reset-global-variables",
-					"objectClass": "System",
-					"sid": 187064303434104
-				}
-			],
-			"sid": 875427146192605
 		}
 	],
 	"sid": 142881716198156

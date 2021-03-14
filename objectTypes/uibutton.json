@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 726243599400765
+		},
+		{
+			"name": "color",
+			"type": "string",
+			"desc": "",
+			"sid": 180083336796675
 		}
 	],
 	"behaviorTypes": [],
@@ -34,7 +40,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 265712,
+						"imageSpriteId": 2589784,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -60,7 +66,7 @@
 					}
 				],
 				"sid": 700121845814288,
-				"name": "Not pressed",
+				"name": "green - Not pressed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -77,7 +83,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2590582,
+						"imageSpriteId": 152446,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -103,7 +109,93 @@
 					}
 				],
 				"sid": 531346266286292,
-				"name": "Pressed",
+				"name": "green - Pressed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 66,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1828688,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9970588235294118,
+								0,
+								0.9970588235294118,
+								0.5,
+								0.9970588235294118,
+								0.9848484848484849,
+								0.5,
+								0.9848484848484849,
+								0,
+								0.9848484848484849,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 416937472103055,
+				"name": "red - Not pressed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 66,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1896855,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9970588235294118,
+								0,
+								0.9970588235294118,
+								0.5,
+								0.9970588235294118,
+								0.9848484848484849,
+								0.5,
+								0.9848484848484849,
+								0,
+								0.9848484848484849,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 349131251081532,
+				"name": "red - Pressed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

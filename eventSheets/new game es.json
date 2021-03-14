@@ -1,6 +1,10 @@
 {
-	"name": "NewGame_es",
+	"name": "New Game ES",
 	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Default UI ES"
+		},
 		{
 			"eventType": "block",
 			"conditions": [
@@ -17,18 +21,9 @@
 			],
 			"actions": [
 				{
-					"id": "set-animation",
-					"objectClass": "UIButton",
-					"sid": 282176690491886,
-					"parameters": {
-						"animation": "\"Pressed\"",
-						"from": "beginning"
-					}
-				},
-				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 329962530475980,
+					"sid": 864003792870347,
 					"parameters": {
 						"seconds": "0.3"
 					}
@@ -198,88 +193,6 @@
 						}
 					],
 					"sid": 720581653473490
-				},
-				{
-					"eventType": "block",
-					"conditions": [],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "UIButton",
-							"sid": 116560507427621,
-							"parameters": {
-								"animation": "\"Not pressed\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 609224380226584
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "for-each",
-					"objectClass": "System",
-					"sid": 880543642987603,
-					"parameters": {
-						"object": "UIButton"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 683888206198846,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "cursor-is-over-object",
-							"objectClass": "Mouse",
-							"sid": 688307830107030,
-							"parameters": {
-								"object": "UIButton"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-parameter",
-							"objectClass": "UIButton",
-							"sid": 247879038350667,
-							"parameters": {
-								"effect": "\"Contrast\"",
-								"parameter-index": "0",
-								"value": "150"
-							}
-						}
-					],
-					"sid": 575689031781113
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "else",
-							"objectClass": "System",
-							"sid": 323206409204186
-						}
-					],
-					"actions": [
-						{
-							"id": "set-effect-parameter",
-							"objectClass": "UIButton",
-							"sid": 313135964225132,
-							"parameters": {
-								"effect": "\"Contrast\"",
-								"parameter-index": "0",
-								"value": "100"
-							}
-						}
-					],
-					"sid": 869145834638751
 				}
 			]
 		}

@@ -1,54 +1,37 @@
 {
-	"name": "enemy_corpse",
+	"name": "RedHead",
 	"plugin-id": "Sprite",
-	"sid": 5712920954798047,
+	"sid": 5376225777121117,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
 			"name": "ID",
 			"type": "number",
 			"desc": "",
-			"sid": 6648680056027333
-		},
-		{
-			"name": "Health",
-			"type": "number",
-			"desc": "",
-			"sid": 6131866538959256
+			"sid": 5522036083900919
 		},
 		{
 			"name": "Direction",
 			"type": "number",
 			"desc": "",
-			"sid": 5702107551867742
+			"sid": 102253175664333
 		}
 	],
-	"behaviorTypes": [
-		{
-			"behaviorId": "EightDir",
-			"name": "8Direction",
-			"sid": 30435519375097
-		},
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 8113025306572294
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 127,
-						"height": 65,
-						"originX": 0.503937,
-						"originY": 0.507692,
+						"width": 134,
+						"height": 52,
+						"originX": 0.19403,
+						"originY": 0.5,
 						"originalSource": "C:\\Users\\Adi\\Desktop\\tankall.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 168554,
+						"imageSpriteId": 1153978,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -64,20 +47,20 @@
 						"useCollisionPoly": true,
 						"imagePoints": [
 							{
-								"name": "shassie1",
-								"x": 0.0551181,
-								"y": 0.138462
+								"name": "ShootPoint",
+								"x": 0.940298,
+								"y": 0.5
 							},
 							{
-								"name": "shassie2",
-								"x": 0.0551181,
-								"y": 0.861538
+								"name": "FirePoint",
+								"x": 0.940298,
+								"y": 0.5
 							}
 						],
 						"duration": 1
 					}
 				],
-				"sid": 4322217544274762,
+				"sid": 4898573388431223,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

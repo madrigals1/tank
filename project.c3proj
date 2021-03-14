@@ -357,8 +357,8 @@
 			},
 			{
 				"items": [
-					"enemy_corpse",
-					"enemy_tower",
+					"RedBody",
+					"RedHead",
 					"Enemy_Turret",
 					"MineBoom",
 					"Soldier",

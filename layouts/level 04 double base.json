@@ -1829,7 +1829,7 @@
 					}
 				},
 				{
-					"type": "enemy_corpse",
+					"type": "RedBody",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -1880,7 +1880,7 @@
 					}
 				},
 				{
-					"type": "enemy_tower",
+					"type": "RedHead",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",

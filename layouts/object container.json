@@ -1829,7 +1829,7 @@
 					}
 				},
 				{
-					"type": "enemy_corpse",
+					"type": "RedBody",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -1880,7 +1880,7 @@
 					}
 				},
 				{
-					"type": "enemy_tower",
+					"type": "RedHead",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -4243,7 +4243,7 @@
 								"deceleration": 500,
 								"directions": "dir-8",
 								"set-angle": "smooth",
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						},
@@ -6031,6 +6031,51 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Explosion_Bullet",
+					"properties": {
+						"rate": 100,
+						"spray-cone": 360,
+						"type": "continuous-spray",
+						"object": -1,
+						"live-preview": false,
+						"speed": 100,
+						"size": 25,
+						"opacity": 25,
+						"grow-rate": 0,
+						"x-randomiser": 0,
+						"y-randomiser": 0,
+						"initial-speed-randomiser": 0,
+						"size-randomiser": 0,
+						"grow-rate-randomiser": 0,
+						"acceleration": -150,
+						"gravity": 0,
+						"angle-randomiser": 0,
+						"life-speed-randomiser": 800,
+						"opacity-randomiser": 0,
+						"destroy-mode": "fade-to-invisible",
+						"timeout": 1
+					},
+					"uid": 782,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1472,
+						"y": 192,
+						"width": 128,
+						"height": 128,
+						"originX": 0,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 3471339609550396,
@@ -6254,51 +6299,6 @@
 						"height": 64,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Explosion_Bullet",
-					"properties": {
-						"rate": 500,
-						"spray-cone": 360,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 100,
-						"size": 25,
-						"opacity": 25,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 782,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1472,
-						"y": 192,
-						"width": 128,
-						"height": 128,
-						"originX": 0,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

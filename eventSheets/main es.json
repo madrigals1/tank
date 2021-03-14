@@ -3,14 +3,14 @@
 	"events": [
 		{
 			"eventType": "group",
-			"disabled": true,
+			"disabled": false,
 			"title": "System",
 			"description": "",
 			"isActiveOnStart": true,
 			"children": [
 				{
 					"eventType": "group",
-					"disabled": true,
+					"disabled": false,
 					"title": "System - Load, Save, Restart",
 					"description": "",
 					"isActiveOnStart": true,
@@ -34,8 +34,7 @@
 									}
 								}
 							],
-							"sid": 642668140499179,
-							"disabled": true
+							"sid": 642668140499179
 						},
 						{
 							"eventType": "block",
@@ -83,8 +82,7 @@
 									}
 								}
 							],
-							"sid": 334516751579703,
-							"disabled": true
+							"sid": 334516751579703
 						},
 						{
 							"eventType": "block",
@@ -132,8 +130,7 @@
 									}
 								}
 							],
-							"sid": 185642273384919,
-							"disabled": true
+							"sid": 185642273384919
 						},
 						{
 							"eventType": "block",
@@ -181,8 +178,7 @@
 									}
 								}
 							],
-							"sid": 520968582125637,
-							"disabled": true
+							"sid": 520968582125637
 						},
 						{
 							"eventType": "block",
@@ -206,15 +202,14 @@
 									}
 								}
 							],
-							"sid": 483350265216603,
-							"disabled": true
+							"sid": 483350265216603
 						}
 					],
 					"sid": 389315090815061
 				},
 				{
 					"eventType": "group",
-					"disabled": true,
+					"disabled": false,
 					"title": "System - Next Level",
 					"description": "",
 					"isActiveOnStart": true,
@@ -262,8 +257,7 @@
 									}
 								}
 							],
-							"sid": 176579326467988,
-							"disabled": true
+							"sid": 176579326467988
 						},
 						{
 							"eventType": "block",
@@ -287,29 +281,28 @@
 									}
 								}
 							],
-							"sid": 255721561367172,
-							"disabled": true
+							"sid": 255721561367172
 						}
 					],
 					"sid": 625568915840528
 				},
 				{
 					"eventType": "group",
-					"disabled": true,
+					"disabled": false,
 					"title": "System - Controls",
 					"description": "",
 					"isActiveOnStart": true,
 					"children": [
 						{
 							"eventType": "group",
-							"disabled": true,
+							"disabled": false,
 							"title": "Keyboard simulators",
 							"description": "",
 							"isActiveOnStart": true,
 							"children": [
 								{
 									"eventType": "group",
-									"disabled": true,
+									"disabled": false,
 									"title": "KeySim_Tank",
 									"description": "",
 									"isActiveOnStart": true,
@@ -337,8 +330,7 @@
 													}
 												}
 											],
-											"sid": 435566513517381,
-											"disabled": true
+											"sid": 435566513517381
 										},
 										{
 											"eventType": "block",
@@ -363,8 +355,7 @@
 													}
 												}
 											],
-											"sid": 133165388134836,
-											"disabled": true
+											"sid": 133165388134836
 										},
 										{
 											"eventType": "block",
@@ -389,8 +380,7 @@
 													}
 												}
 											],
-											"sid": 882456628698041,
-											"disabled": true
+											"sid": 882456628698041
 										},
 										{
 											"eventType": "block",
@@ -415,8 +405,7 @@
 													}
 												}
 											],
-											"sid": 227283339017057,
-											"disabled": true
+											"sid": 227283339017057
 										},
 										{
 											"eventType": "block",
@@ -441,15 +430,14 @@
 													}
 												}
 											],
-											"sid": 817032676303663,
-											"disabled": true
+											"sid": 817032676303663
 										}
 									],
 									"sid": 867482118839675
 								},
 								{
 									"eventType": "group",
-									"disabled": true,
+									"disabled": false,
 									"title": "KeySim_Player",
 									"description": "",
 									"isActiveOnStart": false,
@@ -477,8 +465,7 @@
 													}
 												}
 											],
-											"sid": 304213594883059,
-											"disabled": true
+											"sid": 304213594883059
 										},
 										{
 											"eventType": "block",
@@ -503,8 +490,7 @@
 													}
 												}
 											],
-											"sid": 260087920440806,
-											"disabled": true
+											"sid": 260087920440806
 										},
 										{
 											"eventType": "block",
@@ -529,8 +515,7 @@
 													}
 												}
 											],
-											"sid": 977300546109073,
-											"disabled": true
+											"sid": 977300546109073
 										},
 										{
 											"eventType": "block",
@@ -555,8 +540,7 @@
 													}
 												}
 											],
-											"sid": 955218178510466,
-											"disabled": true
+											"sid": 955218178510466
 										},
 										{
 											"eventType": "block",
@@ -581,8 +565,7 @@
 													}
 												}
 											],
-											"sid": 630394031388463,
-											"disabled": true
+											"sid": 630394031388463
 										}
 									],
 									"sid": 698242460531779
@@ -592,7 +575,7 @@
 						},
 						{
 							"eventType": "group",
-							"disabled": true,
+							"disabled": false,
 							"title": "Switch weapon",
 							"description": "",
 							"isActiveOnStart": true,
@@ -622,9 +605,9 @@
 										{
 											"id": "set-group-active",
 											"objectClass": "System",
-											"sid": 141318290635329,
+											"sid": 131204112265442,
 											"parameters": {
-												"group-name": "\"Machine_Gun\"",
+												"group-name": "\"Machinegun\"",
 												"state": "deactivated"
 											}
 										},
@@ -638,8 +621,7 @@
 											}
 										}
 									],
-									"sid": 865361059685208,
-									"disabled": true
+									"sid": 865361059685208
 								},
 								{
 									"eventType": "block",
@@ -666,9 +648,9 @@
 										{
 											"id": "set-group-active",
 											"objectClass": "System",
-											"sid": 362356790934090,
+											"sid": 862011726096386,
 											"parameters": {
-												"group-name": "\"Machine_Gun\"",
+												"group-name": "\"Machinegun\"",
 												"state": "activated"
 											}
 										},
@@ -682,8 +664,7 @@
 											}
 										}
 									],
-									"sid": 479267857169418,
-									"disabled": true
+									"sid": 479267857169418
 								},
 								{
 									"eventType": "block",
@@ -710,9 +691,9 @@
 										{
 											"id": "set-group-active",
 											"objectClass": "System",
-											"sid": 695096516477153,
+											"sid": 920058499287645,
 											"parameters": {
-												"group-name": "\"Machine_Gun\"",
+												"group-name": "\"Machinegun\"",
 												"state": "deactivated"
 											}
 										},
@@ -726,8 +707,7 @@
 											}
 										}
 									],
-									"sid": 355814371632651,
-									"disabled": true
+									"sid": 355814371632651
 								}
 							],
 							"sid": 771722415966598
@@ -737,7 +717,7 @@
 				},
 				{
 					"eventType": "group",
-					"disabled": true,
+					"disabled": false,
 					"title": "System - Leftovers",
 					"description": "",
 					"isActiveOnStart": true,
@@ -764,8 +744,7 @@
 									}
 								}
 							],
-							"sid": 945475573674145,
-							"disabled": true
+							"sid": 945475573674145
 						}
 					],
 					"sid": 883443041092686
@@ -1001,6 +980,22 @@
 								}
 							],
 							"sid": 378735787712325
+						},
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Tank Movement",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [],
+									"actions": [],
+									"sid": 835542855835775
+								}
+							],
+							"sid": 693671231300123
 						}
 					],
 					"sid": 415083499213488
@@ -1123,10 +1118,10 @@
 							"actions": [
 								{
 									"id": "set-position-to-another-object",
-									"objectClass": "enemy_tower",
+									"objectClass": "RedHead",
 									"sid": 609479199493644,
 									"parameters": {
-										"object": "enemy_corpse",
+										"object": "RedBody",
 										"image-point-optional": "0"
 									}
 								}
@@ -1150,7 +1145,7 @@
 								},
 								{
 									"id": "is-moving",
-									"objectClass": "enemy_corpse",
+									"objectClass": "RedBody",
 									"sid": 925957171771443,
 									"behaviorType": "8Direction"
 								}
@@ -1158,7 +1153,7 @@
 							"actions": [
 								{
 									"id": "spawn-another-object",
-									"objectClass": "enemy_corpse",
+									"objectClass": "RedBody",
 									"sid": 535162009442545,
 									"parameters": {
 										"object": "Shassie",
@@ -1169,7 +1164,7 @@
 								},
 								{
 									"id": "spawn-another-object",
-									"objectClass": "enemy_corpse",
+									"objectClass": "RedBody",
 									"sid": 757430650856523,
 									"parameters": {
 										"object": "Shassie",
@@ -1410,10 +1405,10 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "Bullet",
-									"sid": 998776846535554,
+									"sid": 279738643242722,
 									"parameters": {
 										"object": "Explosion_Bullet",
-										"layer": "\"Foreground_Napalm\"",
+										"layer": "\"Foreground_Boosts\"",
 										"image-point": "\"BoomPoint\"",
 										"create-hierarchy": false
 									}
@@ -1421,7 +1416,7 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 609899060842063,
+									"sid": 376200030881865,
 									"parameters": {
 										"seconds": "1"
 									}
@@ -1429,7 +1424,7 @@
 								{
 									"id": "destroy",
 									"objectClass": "Explosion_Bullet",
-									"sid": 609268355729137
+									"sid": 822048274313066
 								}
 							],
 							"sid": 612961872233890
@@ -1450,9 +1445,9 @@
 								{
 									"id": "is-group-active",
 									"objectClass": "System",
-									"sid": 371224174508477,
+									"sid": 986258262362814,
 									"parameters": {
-										"group-name": "\"Machine_Gun\""
+										"group-name": "\"Machinegun\""
 									}
 								}
 							],
@@ -2241,7 +2236,8 @@
 													"sid": 563109403207374
 												}
 											],
-											"sid": 372402856703131
+											"sid": 372402856703131,
+											"disabled": true
 										},
 										{
 											"eventType": "block",
@@ -2832,7 +2828,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 974627012704610,
 													"parameters": {
 														"instance-variable": "Health",
@@ -2842,7 +2838,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 700962533904684,
 													"parameters": {
 														"instance-variable": "ID",
@@ -2852,7 +2848,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 426077232539629,
 													"parameters": {
 														"instance-variable": "ID",
@@ -2887,12 +2883,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 201281495986395
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 905807178390733
 												}
 											],
@@ -2969,7 +2965,7 @@
 															"objectClass": "System",
 															"sid": 947312944700781,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn1_x",
 																"y": "Enemy_Red_spawn1_y",
@@ -2981,7 +2977,7 @@
 															"objectClass": "System",
 															"sid": 137072289134320,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -2995,8 +2991,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3007,8 +3003,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3023,7 +3019,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 447718127695711,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3032,7 +3028,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 543365799410040,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3067,7 +3063,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 946806368258352,
 													"parameters": {
 														"instance-variable": "Health",
@@ -3077,7 +3073,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 590257662248090,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3087,7 +3083,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 737392652064554,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3122,12 +3118,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 421825346684783
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 578152529277762
 												}
 											],
@@ -3204,7 +3200,7 @@
 															"objectClass": "System",
 															"sid": 734784781590661,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn2_x",
 																"y": "Enemy_Red_spawn2_y",
@@ -3216,7 +3212,7 @@
 															"objectClass": "System",
 															"sid": 956493961278552,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -3230,8 +3226,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3242,8 +3238,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3258,7 +3254,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 385387766660382,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3267,7 +3263,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 541510879620670,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3302,7 +3298,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 909169343902757,
 													"parameters": {
 														"instance-variable": "Health",
@@ -3312,7 +3308,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 143892141324930,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3322,7 +3318,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 903373526909356,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3357,12 +3353,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 722944045981781
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 479099855640326
 												}
 											],
@@ -3439,7 +3435,7 @@
 															"objectClass": "System",
 															"sid": 401052382071489,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn3_x",
 																"y": "Enemy_Red_spawn3_y",
@@ -3451,7 +3447,7 @@
 															"objectClass": "System",
 															"sid": 631107131122428,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -3465,8 +3461,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3477,8 +3473,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3493,7 +3489,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 943268159473283,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3502,7 +3498,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 302447780971627,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3537,7 +3533,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 115580745173407,
 													"parameters": {
 														"instance-variable": "Health",
@@ -3547,7 +3543,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 272183669824204,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3557,7 +3553,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 314798962554444,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3592,12 +3588,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 473180875030484
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 171122965087699
 												}
 											],
@@ -3674,7 +3670,7 @@
 															"objectClass": "System",
 															"sid": 593978533046207,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn4_x",
 																"y": "Enemy_Red_spawn4_y",
@@ -3686,7 +3682,7 @@
 															"objectClass": "System",
 															"sid": 290301331371707,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -3700,8 +3696,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3712,8 +3708,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3728,7 +3724,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 262800822318346,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3737,7 +3733,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 900668012161046,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3772,7 +3768,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 146509682853155,
 													"parameters": {
 														"instance-variable": "Health",
@@ -3782,7 +3778,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 293763810762798,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3792,7 +3788,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 151676489003610,
 													"parameters": {
 														"instance-variable": "ID",
@@ -3827,12 +3823,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 765859281626257
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 356186115021534
 												}
 											],
@@ -3909,7 +3905,7 @@
 															"objectClass": "System",
 															"sid": 167722773152647,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn5_x",
 																"y": "Enemy_Red_spawn5_y",
@@ -3921,7 +3917,7 @@
 															"objectClass": "System",
 															"sid": 853123086302575,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -3935,8 +3931,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3947,8 +3943,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -3963,7 +3959,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 619026477418521,
 															"parameters": {
 																"instance-variable": "ID",
@@ -3972,7 +3968,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 291857858360107,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4007,7 +4003,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 911403905522521,
 													"parameters": {
 														"instance-variable": "Health",
@@ -4017,7 +4013,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 150854818428267,
 													"parameters": {
 														"instance-variable": "ID",
@@ -4027,7 +4023,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 655045948683813,
 													"parameters": {
 														"instance-variable": "ID",
@@ -4062,12 +4058,12 @@
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 534556607328584
 												},
 												{
 													"id": "destroy",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 344095488385965
 												}
 											],
@@ -4144,7 +4140,7 @@
 															"objectClass": "System",
 															"sid": 596108544298217,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn6_x",
 																"y": "Enemy_Red_spawn6_y",
@@ -4156,7 +4152,7 @@
 															"objectClass": "System",
 															"sid": 723812349584361,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -4170,8 +4166,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4182,8 +4178,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4198,7 +4194,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 866093655364340,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4207,7 +4203,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 433105240329689,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4242,14 +4238,14 @@
 											"conditions": [
 												{
 													"id": "on-destroyed",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 290790575404571
 												}
 											],
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 895269943341484,
 													"parameters": {
 														"object": "Explosion_Tank",
@@ -4260,7 +4256,7 @@
 												},
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 304097536777151,
 													"parameters": {
 														"object": "Hole",
@@ -4291,57 +4287,74 @@
 														{
 															"id": "for",
 															"objectClass": "System",
-															"sid": 470382577222248,
+															"sid": 927350842669758,
 															"parameters": {
-																"name": "\"ID_HP\"",
+																"name": "\"Red_ID\"",
 																"start-index": "1",
 																"end-index": "6"
 															}
 														},
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
-															"sid": 264116341312819,
+															"objectClass": "RedBody",
+															"sid": 610917003186692,
 															"parameters": {
 																"instance-variable": "ID",
 																"comparison": 0,
-																"value": "loopindex(\"ID_HP\")"
-															}
-														},
-														{
-															"id": "compare-instance-variable",
-															"objectClass": "HP_Green_Sprite",
-															"sid": 891892715094523,
-															"parameters": {
-																"instance-variable": "ID",
-																"comparison": 0,
-																"value": "loopindex(\"ID_HP\")"
-															}
-														},
-														{
-															"id": "compare-instance-variable",
-															"objectClass": "HP_Gray_Sprite",
-															"sid": 550090502519934,
-															"parameters": {
-																"instance-variable": "ID",
-																"comparison": 0,
-																"value": "loopindex(\"ID_HP\")"
+																"value": "loopindex(\"Red_ID\")"
 															}
 														}
 													],
-													"actions": [
+													"actions": [],
+													"sid": 296084805300392,
+													"children": [
 														{
-															"id": "destroy",
-															"objectClass": "HP_Gray_Sprite",
-															"sid": 318804000586924
+															"eventType": "block",
+															"conditions": [
+																{
+																	"id": "compare-instance-variable",
+																	"objectClass": "HP_Green_Sprite",
+																	"sid": 252567955879000,
+																	"parameters": {
+																		"instance-variable": "ID",
+																		"comparison": 0,
+																		"value": "loopindex(\"Red_ID\")"
+																	}
+																}
+															],
+															"actions": [
+																{
+																	"id": "destroy",
+																	"objectClass": "HP_Green_Sprite",
+																	"sid": 329950259143398
+																}
+															],
+															"sid": 422952141133842
 														},
 														{
-															"id": "destroy",
-															"objectClass": "HP_Green_Sprite",
-															"sid": 495648230137693
+															"eventType": "block",
+															"conditions": [
+																{
+																	"id": "compare-instance-variable",
+																	"objectClass": "HP_Gray_Sprite",
+																	"sid": 709642521335538,
+																	"parameters": {
+																		"instance-variable": "ID",
+																		"comparison": 0,
+																		"value": "loopindex(\"Red_ID\")"
+																	}
+																}
+															],
+															"actions": [
+																{
+																	"id": "destroy",
+																	"objectClass": "HP_Gray_Sprite",
+																	"sid": 238615442623372
+																}
+															],
+															"sid": 517317519344781
 														}
-													],
-													"sid": 296084805300392
+													]
 												}
 											]
 										}
@@ -4360,14 +4373,14 @@
 											"conditions": [
 												{
 													"id": "on-created",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 167144890849650
 												}
 											],
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 444827244336094,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -4465,7 +4478,7 @@
 															"objectClass": "System",
 															"sid": 902356565763718,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn1_x",
 																"y": "Enemy_Red_spawn1_y",
@@ -4477,7 +4490,7 @@
 															"objectClass": "System",
 															"sid": 307542043608844,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -4491,8 +4504,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4503,8 +4516,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4519,7 +4532,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 509220385404759,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4528,7 +4541,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 247151787920381,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4637,7 +4650,7 @@
 															"objectClass": "System",
 															"sid": 288285873791888,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn2_x",
 																"y": "Enemy_Red_spawn2_y",
@@ -4649,7 +4662,7 @@
 															"objectClass": "System",
 															"sid": 541573333074254,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -4663,8 +4676,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4675,8 +4688,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4691,7 +4704,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 678265338338741,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4700,7 +4713,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 402359434111526,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4809,7 +4822,7 @@
 															"objectClass": "System",
 															"sid": 957563397681565,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn3_x",
 																"y": "Enemy_Red_spawn3_y",
@@ -4821,7 +4834,7 @@
 															"objectClass": "System",
 															"sid": 284771318886241,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -4835,8 +4848,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4847,8 +4860,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -4863,7 +4876,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 532474385593747,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4872,7 +4885,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 237927542469029,
 															"parameters": {
 																"instance-variable": "ID",
@@ -4981,7 +4994,7 @@
 															"objectClass": "System",
 															"sid": 506039592619504,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn4_x",
 																"y": "Enemy_Red_spawn4_y",
@@ -4993,7 +5006,7 @@
 															"objectClass": "System",
 															"sid": 234974457986223,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -5007,8 +5020,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5019,8 +5032,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5035,7 +5048,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 733561198449158,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5044,7 +5057,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 265169330270255,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5153,7 +5166,7 @@
 															"objectClass": "System",
 															"sid": 740123850405443,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn5_x",
 																"y": "Enemy_Red_spawn5_y",
@@ -5165,7 +5178,7 @@
 															"objectClass": "System",
 															"sid": 425755966672923,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -5179,8 +5192,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5191,8 +5204,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5207,7 +5220,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 210376665210638,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5216,7 +5229,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 347137036573657,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5325,7 +5338,7 @@
 															"objectClass": "System",
 															"sid": 522809501790368,
 															"parameters": {
-																"object-to-create": "enemy_corpse",
+																"object-to-create": "RedBody",
 																"layer": "\"Game_Solid\"",
 																"x": "Enemy_Red_spawn6_x",
 																"y": "Enemy_Red_spawn6_y",
@@ -5337,7 +5350,7 @@
 															"objectClass": "System",
 															"sid": 485169518646392,
 															"parameters": {
-																"object-to-create": "enemy_tower",
+																"object-to-create": "RedHead",
 																"layer": "\"Game_Solid\"",
 																"x": "-300",
 																"y": "-300",
@@ -5351,8 +5364,8 @@
 															"parameters": {
 																"object-to-create": "HP_Gray_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5363,8 +5376,8 @@
 															"parameters": {
 																"object-to-create": "HP_Green_Sprite",
 																"layer": "\"ForeGround_Boosts\"",
-																"x": "enemy_corpse.X - 20",
-																"y": "enemy_corpse.Y - 20",
+																"x": "RedBody.X - 20",
+																"y": "RedBody.Y - 20",
 																"create-hierarchy": false
 															}
 														},
@@ -5379,7 +5392,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 939437022486538,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5388,7 +5401,7 @@
 														},
 														{
 															"id": "set-instvar-value",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 547866643389120,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5476,7 +5489,7 @@
 														},
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 947515225605435,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5486,7 +5499,7 @@
 														},
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 764835982139161,
 															"parameters": {
 																"instance-variable": "ID",
@@ -5501,8 +5514,8 @@
 															"objectClass": "HP_Green_Sprite",
 															"sid": 569315339957358,
 															"parameters": {
-																"x": "enemy_tower.X - 37.5",
-																"y": "enemy_tower.Y - 40"
+																"x": "RedHead.X - 37.5",
+																"y": "RedHead.Y - 40"
 															}
 														},
 														{
@@ -5510,8 +5523,8 @@
 															"objectClass": "HP_Gray_Sprite",
 															"sid": 415472736285984,
 															"parameters": {
-																"x": "enemy_tower.X - 37.5",
-																"y": "enemy_tower.Y - 40"
+																"x": "RedHead.X - 37.5",
+																"y": "RedHead.Y - 40"
 															}
 														},
 														{
@@ -5519,7 +5532,7 @@
 															"objectClass": "HP_Green_Sprite",
 															"sid": 869818693008782,
 															"parameters": {
-																"width": "(enemy_corpse.Health/50)*75"
+																"width": "(RedBody.Health/50)*75"
 															}
 														}
 													],
@@ -5571,7 +5584,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 677384850449305,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5583,7 +5596,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 852601963560593,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5616,7 +5629,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 909584113453539,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5628,7 +5641,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 731134809990710,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5661,7 +5674,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 734858281830930,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5673,7 +5686,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 333242604201647,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5706,7 +5719,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 364381611928407,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5718,7 +5731,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 127099255901067,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5751,7 +5764,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 119380641600230,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5763,7 +5776,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 993292789144588,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5796,7 +5809,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 410838022250473,
 													"parameters": {
 														"instance-variable": "ID",
@@ -5808,7 +5821,7 @@
 											"actions": [
 												{
 													"id": "spawn-another-object",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 303100224533899,
 													"parameters": {
 														"object": "enemy_bullet",
@@ -5954,7 +5967,7 @@
 															"objectClass": "corpse",
 															"sid": 960854515578527,
 															"parameters": {
-																"object": "enemy_corpse"
+																"object": "RedBody"
 															}
 														},
 														{
@@ -6042,14 +6055,14 @@
 															"objectClass": "Bullet",
 															"sid": 944914867887673,
 															"parameters": {
-																"object": "enemy_corpse"
+																"object": "RedBody"
 															}
 														}
 													],
 													"actions": [
 														{
 															"id": "subtract-from-instvar",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 196834505680291,
 															"parameters": {
 																"instance-variable": "Health",
@@ -6078,7 +6091,7 @@
 															"objectClass": "MG_Bullet",
 															"sid": 377648285690888,
 															"parameters": {
-																"object": "enemy_corpse"
+																"object": "RedBody"
 															}
 														}
 													],
@@ -6112,7 +6125,7 @@
 														},
 														{
 															"id": "subtract-from-instvar",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 745631663504826,
 															"parameters": {
 																"instance-variable": "Health",
@@ -6145,7 +6158,7 @@
 													"conditions": [
 														{
 															"id": "on-collision-with-another-object",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 211486860953240,
 															"parameters": {
 																"object": "Napalm"
@@ -6155,7 +6168,7 @@
 													"actions": [
 														{
 															"id": "subtract-from-instvar",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 519050684058798,
 															"parameters": {
 																"instance-variable": "Health",
@@ -6170,7 +6183,7 @@
 													"conditions": [
 														{
 															"id": "on-collision-with-another-object",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 598831022517832,
 															"parameters": {
 																"object": "Explosion_Bullet"
@@ -6180,7 +6193,7 @@
 													"actions": [
 														{
 															"id": "subtract-from-instvar",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 712435731408110,
 															"parameters": {
 																"instance-variable": "Health",
@@ -6208,7 +6221,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 735957857359982,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6228,7 +6241,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 301059251814590,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6243,7 +6256,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 410023517925885,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6263,7 +6276,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 882744120661007,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6278,7 +6291,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 209992347715502,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6298,7 +6311,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 699035755283691,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6313,7 +6326,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 747012210853949,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6333,7 +6346,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 743094633782647,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6348,7 +6361,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 372798487972757,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6368,7 +6381,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 133493466000786,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6383,7 +6396,7 @@
 											"conditions": [
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 674146822599831,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6403,7 +6416,7 @@
 											"actions": [
 												{
 													"id": "set-instvar-value",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 858480440049284,
 													"parameters": {
 														"instance-variable": "Direction",
@@ -6428,7 +6441,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_corpse",
+													"objectClass": "RedBody",
 													"sid": 528375449712618,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6438,7 +6451,7 @@
 												},
 												{
 													"id": "compare-instance-variable",
-													"objectClass": "enemy_tower",
+													"objectClass": "RedHead",
 													"sid": 825510419288031,
 													"parameters": {
 														"instance-variable": "ID",
@@ -6455,7 +6468,7 @@
 													"conditions": [
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 977585257429359,
 															"parameters": {
 																"instance-variable": "Direction",
@@ -6467,7 +6480,7 @@
 													"actions": [
 														{
 															"id": "simulate-control",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 231107058108806,
 															"behaviorType": "8Direction",
 															"parameters": {
@@ -6476,7 +6489,7 @@
 														},
 														{
 															"id": "set-angle",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 426977164919989,
 															"parameters": {
 																"angle": "180"
@@ -6490,7 +6503,7 @@
 													"conditions": [
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 517225837907153,
 															"parameters": {
 																"instance-variable": "Direction",
@@ -6502,7 +6515,7 @@
 													"actions": [
 														{
 															"id": "simulate-control",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 169506803053250,
 															"behaviorType": "8Direction",
 															"parameters": {
@@ -6511,7 +6524,7 @@
 														},
 														{
 															"id": "set-angle",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 996013821481766,
 															"parameters": {
 																"angle": "270"
@@ -6525,7 +6538,7 @@
 													"conditions": [
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 638305181726903,
 															"parameters": {
 																"instance-variable": "Direction",
@@ -6537,7 +6550,7 @@
 													"actions": [
 														{
 															"id": "simulate-control",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 700900171580414,
 															"behaviorType": "8Direction",
 															"parameters": {
@@ -6546,7 +6559,7 @@
 														},
 														{
 															"id": "set-angle",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 238909905413516,
 															"parameters": {
 																"angle": "0"
@@ -6560,7 +6573,7 @@
 													"conditions": [
 														{
 															"id": "compare-instance-variable",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 381900736568521,
 															"parameters": {
 																"instance-variable": "Direction",
@@ -6572,7 +6585,7 @@
 													"actions": [
 														{
 															"id": "simulate-control",
-															"objectClass": "enemy_corpse",
+															"objectClass": "RedBody",
 															"sid": 429396858649177,
 															"behaviorType": "8Direction",
 															"parameters": {
@@ -6581,7 +6594,7 @@
 														},
 														{
 															"id": "set-angle",
-															"objectClass": "enemy_tower",
+															"objectClass": "RedHead",
 															"sid": 643691779986222,
 															"parameters": {
 																"angle": "90"
@@ -9107,7 +9120,8 @@
 							"sid": 2666638212780775
 						}
 					],
-					"sid": 8563251629486346
+					"sid": 8563251629486346,
+					"disabled": true
 				},
 				{
 					"eventType": "block",

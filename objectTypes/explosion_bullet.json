@@ -1,20 +1,20 @@
 {
 	"name": "Explosion_Bullet",
 	"plugin-id": "Particles",
-	"sid": 3269788860294671,
+	"sid": 654647655148272,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 193,
-		"height": 199,
+		"width": 121,
+		"height": 121,
 		"originX": 0.5,
 		"originY": 0.5,
-		"originalSource": "C:\\Users\\Adi\\Downloads\\explosion0007.png",
+		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 7346548,
+		"imageSpriteId": 1482376,
 		"useCollisionPoly": true
 	}
 }

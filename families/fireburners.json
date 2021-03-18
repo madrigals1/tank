@@ -1,12 +1,12 @@
 {
-	"name": "Burners",
+	"name": "FireBurners",
 	"plugin-id": "Particles",
 	"sid": 521960614841048,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [
-		"Explosion_Bullet",
-		"Napalm"
+		"Napalm",
+		"Explosion_Bullet"
 	]
 }

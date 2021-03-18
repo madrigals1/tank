@@ -2514,51 +2514,6 @@
 					}
 				},
 				{
-					"type": "Explosion_Bullet",
-					"properties": {
-						"rate": 500,
-						"spray-cone": 360,
-						"type": "continuous-spray",
-						"object": -1,
-						"live-preview": false,
-						"speed": 100,
-						"size": 25,
-						"opacity": 25,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 670,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1591,
-						"y": -197,
-						"width": 128,
-						"height": 128,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Napalm",
 					"properties": {
 						"rate": 250,

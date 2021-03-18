@@ -275,14 +275,14 @@
 					"Bang_Bang",
 					"Cloud_Spawn",
 					"Explosion_Building",
-					"Explosion_Bullet",
 					"Explosion_Tank",
 					"Napalm",
 					"Smoke_4walls",
 					"Smoke_Bronze",
 					"Smoke_Silver",
 					"Spark_Orange",
-					"Spark_Red"
+					"Spark_Red",
+					"Explosion_Bullet"
 				],
 				"subfolders": [],
 				"name": "Particles"
@@ -386,7 +386,7 @@
 			"Walls_Bronze",
 			"Light_Bullets",
 			"Trees",
-			"Burners",
+			"FireBurners",
 			"Boosts"
 		],
 		"subfolders": []

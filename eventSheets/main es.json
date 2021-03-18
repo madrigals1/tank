@@ -1416,9 +1416,9 @@
 								{
 									"id": "wait",
 									"objectClass": "System",
-									"sid": 376200030881865,
+									"sid": 824064661493298,
 									"parameters": {
-										"seconds": "1"
+										"seconds": "5"
 									}
 								},
 								{
@@ -2225,7 +2225,7 @@
 													"objectClass": "Soldier",
 													"sid": 650351095852125,
 													"parameters": {
-														"object": "Burners"
+														"object": "FireBurners"
 													}
 												}
 											],
@@ -9092,7 +9092,7 @@
 							"objectClass": "Trees",
 							"sid": 1255053374550347,
 							"parameters": {
-								"object": "Burners"
+								"object": "FireBurners"
 							}
 						}
 					],
@@ -9120,8 +9120,7 @@
 							"sid": 2666638212780775
 						}
 					],
-					"sid": 8563251629486346,
-					"disabled": true
+					"sid": 8563251629486346
 				},
 				{
 					"eventType": "block",
@@ -9166,7 +9165,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": true,
+			"disabled": false,
 			"title": "Cheats",
 			"description": "",
 			"isActiveOnStart": true,
@@ -9194,8 +9193,7 @@
 							}
 						}
 					],
-					"sid": 850372028436125,
-					"disabled": true
+					"sid": 850372028436125
 				},
 				{
 					"eventType": "block",
@@ -9220,8 +9218,7 @@
 							}
 						}
 					],
-					"sid": 625216011494776,
-					"disabled": true
+					"sid": 625216011494776
 				}
 			],
 			"sid": 438364695648218

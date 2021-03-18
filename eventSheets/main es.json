@@ -9166,7 +9166,7 @@
 		},
 		{
 			"eventType": "group",
-			"disabled": false,
+			"disabled": true,
 			"title": "Cheats",
 			"description": "",
 			"isActiveOnStart": true,
@@ -9194,7 +9194,8 @@
 							}
 						}
 					],
-					"sid": 850372028436125
+					"sid": 850372028436125,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -9219,7 +9220,8 @@
 							}
 						}
 					],
-					"sid": 625216011494776
+					"sid": 625216011494776,
+					"disabled": true
 				}
 			],
 			"sid": 438364695648218

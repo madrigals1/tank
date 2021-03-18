@@ -441,7 +441,7 @@
 				"items": [
 					"About ES",
 					"New Game ES",
-					"MainMenu ES",
+					"Main Menu ES",
 					"Default UI ES"
 				],
 				"subfolders": [],
@@ -454,7 +454,7 @@
 					"Level 03 ES"
 				],
 				"subfolders": [],
-				"name": "Levels_Classic"
+				"name": "Levels Classic"
 			},
 			{
 				"items": [
@@ -468,7 +468,7 @@
 					"Level 15 ES"
 				],
 				"subfolders": [],
-				"name": "Levels_NR"
+				"name": "Levels New"
 			}
 		]
 	},

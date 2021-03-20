@@ -276,13 +276,13 @@
 					"Cloud_Spawn",
 					"Explosion_Building",
 					"Explosion_Tank",
-					"Napalm",
 					"Smoke_4walls",
 					"Smoke_Bronze",
 					"Smoke_Silver",
 					"Spark_Orange",
 					"Spark_Red",
-					"Explosion_Bullet"
+					"Explosion_Bullet",
+					"Napalm"
 				],
 				"subfolders": [],
 				"name": "Particles"

@@ -6265,51 +6265,6 @@
 					}
 				},
 				{
-					"type": "Napalm",
-					"properties": {
-						"rate": 250,
-						"spray-cone": 90,
-						"type": "one-shot",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 25,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 783,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1725,
-						"y": -351,
-						"width": 128,
-						"height": 128,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Tree2",
 					"properties": {
 						"initially-visible": true,
@@ -7361,18 +7316,18 @@
 						"live-preview": false,
 						"speed": 60,
 						"size": 10,
-						"opacity": 100,
-						"grow-rate": 60,
+						"opacity": 40,
+						"grow-rate": 100,
 						"x-randomiser": 5,
 						"y-randomiser": 5,
 						"initial-speed-randomiser": 100,
 						"size-randomiser": 20,
-						"grow-rate-randomiser": 50,
+						"grow-rate-randomiser": 100,
 						"acceleration": -150,
 						"gravity": 0,
-						"angle-randomiser": 0,
+						"angle-randomiser": 90,
 						"life-speed-randomiser": 100,
-						"opacity-randomiser": 20,
+						"opacity-randomiser": 0,
 						"destroy-mode": "fade-to-invisible",
 						"timeout": 0.7
 					},
@@ -7380,8 +7335,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1835.407893172385,
-						"y": 246.05263247292282,
+						"x": 829,
+						"y": 386,
 						"width": 128,
 						"height": 128,
 						"originX": 0,
@@ -7393,6 +7348,51 @@
 							1
 						],
 						"angle": 6.282562368828637,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Napalm",
+					"properties": {
+						"rate": 30,
+						"spray-cone": 10,
+						"type": "one-shot",
+						"object": -1,
+						"live-preview": false,
+						"speed": 500,
+						"size": 15,
+						"opacity": 100,
+						"grow-rate": 100,
+						"x-randomiser": 0,
+						"y-randomiser": 0,
+						"initial-speed-randomiser": 0,
+						"size-randomiser": 5,
+						"grow-rate-randomiser": 0,
+						"acceleration": 100,
+						"gravity": 0,
+						"angle-randomiser": 0,
+						"life-speed-randomiser": 800,
+						"opacity-randomiser": 0,
+						"destroy-mode": "fade-to-invisible",
+						"timeout": 0.8
+					},
+					"uid": 119,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 836,
+						"y": 610,
+						"width": 100,
+						"height": 100,
+						"originX": 0,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

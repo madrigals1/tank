@@ -1807,7 +1807,8 @@
 										{
 											"id": "destroy",
 											"objectClass": "Napalm",
-											"sid": 868671488887272
+											"sid": 868671488887272,
+											"disabled": true
 										}
 									],
 									"sid": 770880903646979

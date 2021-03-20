@@ -559,7 +559,7 @@
 			"eventType": "variable",
 			"name": "Tank_Napalm_Damage",
 			"type": "number",
-			"initialValue": "2",
+			"initialValue": "0.5",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

@@ -2514,51 +2514,6 @@
 					}
 				},
 				{
-					"type": "Napalm",
-					"properties": {
-						"rate": 250,
-						"spray-cone": 90,
-						"type": "one-shot",
-						"object": -1,
-						"live-preview": false,
-						"speed": 200,
-						"size": 25,
-						"opacity": 100,
-						"grow-rate": 0,
-						"x-randomiser": 0,
-						"y-randomiser": 0,
-						"initial-speed-randomiser": 0,
-						"size-randomiser": 0,
-						"grow-rate-randomiser": 0,
-						"acceleration": -150,
-						"gravity": 0,
-						"angle-randomiser": 0,
-						"life-speed-randomiser": 800,
-						"opacity-randomiser": 0,
-						"destroy-mode": "fade-to-invisible",
-						"timeout": 1
-					},
-					"uid": 671,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1725,
-						"y": -351,
-						"width": 128,
-						"height": 128,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Tree2",
 					"properties": {
 						"initially-visible": true,

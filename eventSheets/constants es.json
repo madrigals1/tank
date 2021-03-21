@@ -200,10 +200,14 @@
 			"sid": 8239810202446849
 		},
 		{
+			"eventType": "comment",
+			"text": "Enemy \"RED\" Spawn Positions"
+		},
+		{
 			"eventType": "variable",
 			"name": "Enemy_Red_spawn1_x",
 			"type": "number",
-			"initialValue": "811",
+			"initialValue": "420",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -211,9 +215,19 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "Enemy_Red_spawn1_y",
+			"type": "number",
+			"initialValue": "95",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 130218929561539
+		},
+		{
+			"eventType": "variable",
 			"name": "Enemy_Red_spawn2_x",
 			"type": "number",
-			"initialValue": "389",
+			"initialValue": "800",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -221,9 +235,19 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "Enemy_Red_spawn2_y",
+			"type": "number",
+			"initialValue": "95",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 665275774755466
+		},
+		{
+			"eventType": "variable",
 			"name": "Enemy_Red_spawn3_x",
 			"type": "number",
-			"initialValue": "1179",
+			"initialValue": "1180",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -231,9 +255,19 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "Enemy_Red_spawn3_y",
+			"type": "number",
+			"initialValue": "95",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 913242679827008
+		},
+		{
+			"eventType": "variable",
 			"name": "Enemy_Red_spawn4_x",
 			"type": "number",
-			"initialValue": "1568",
+			"initialValue": "420",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -241,9 +275,19 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "Enemy_Red_spawn4_y",
+			"type": "number",
+			"initialValue": "420",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 942118785625824
+		},
+		{
+			"eventType": "variable",
 			"name": "Enemy_Red_spawn5_x",
 			"type": "number",
-			"initialValue": "514",
+			"initialValue": "800",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -251,9 +295,19 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "Enemy_Red_spawn5_y",
+			"type": "number",
+			"initialValue": "420",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 961538108704518
+		},
+		{
+			"eventType": "variable",
 			"name": "Enemy_Red_spawn6_x",
 			"type": "number",
-			"initialValue": "157",
+			"initialValue": "1180",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -261,59 +315,9 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "Enemy_Red_spawn1_y",
-			"type": "number",
-			"initialValue": "132",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 3161681790732992
-		},
-		{
-			"eventType": "variable",
-			"name": "Enemy_Red_spawn2_y",
-			"type": "number",
-			"initialValue": "541",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 1034386073967029
-		},
-		{
-			"eventType": "variable",
-			"name": "Enemy_Red_spawn3_y",
-			"type": "number",
-			"initialValue": "538",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 8447530875540932
-		},
-		{
-			"eventType": "variable",
-			"name": "Enemy_Red_spawn4_y",
-			"type": "number",
-			"initialValue": "98",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 3599531479856595
-		},
-		{
-			"eventType": "variable",
-			"name": "Enemy_Red_spawn5_y",
-			"type": "number",
-			"initialValue": "982",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 2636595734641866
-		},
-		{
-			"eventType": "variable",
 			"name": "Enemy_Red_spawn6_y",
 			"type": "number",
-			"initialValue": "1444",
+			"initialValue": "420",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -618,6 +622,94 @@
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 496617083373114
+		},
+		{
+			"eventType": "comment",
+			"text": "Default HP Values"
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_RED_Default_HP",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 976348891943852
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_Default_HP",
+			"type": "number",
+			"initialValue": "500",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 894038058802673
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Soldier_Default_HP",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 694290034580160
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Soldier_House_Default_HP",
+			"type": "number",
+			"initialValue": "2000",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 457340175361970
+		},
+		{
+			"eventType": "comment",
+			"text": "Default Damage Values"
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_RED_Default_Damage",
+			"type": "number",
+			"initialValue": "25",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 921627974300562
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Turret_Default_Damage",
+			"type": "number",
+			"initialValue": "50",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 114492074586408
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Soldier_Default_Damage",
+			"type": "number",
+			"initialValue": "0.25",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 945057589989987
+		},
+		{
+			"eventType": "variable",
+			"name": "Enemy_Soldier_House_Default_Damage",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 746848519563269
 		}
 	],
 	"sid": 925047927100303

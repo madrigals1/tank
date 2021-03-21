@@ -1,0 +1,27 @@
+{
+	"name": "Enemies",
+	"plugin-id": "Sprite",
+	"sid": 550881283129547,
+	"instanceVariables": [
+		{
+			"name": "HP",
+			"type": "number",
+			"desc": "",
+			"sid": 471773999796743
+		},
+		{
+			"name": "Damage",
+			"type": "number",
+			"desc": "",
+			"sid": 982737584345393
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"RedBody",
+		"Soldier_House",
+		"Soldier",
+		"Enemy_Turret"
+	]
+}

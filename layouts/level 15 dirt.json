@@ -14296,7 +14296,10 @@
 					},
 					"uid": 547,
 					"instanceVariables": {
-						"Health": 100
+						"HP": 0,
+						"Damage": 0,
+						"Health": 100,
+						"ID": 0
 					},
 					"behaviors": {
 						"Turret": {
@@ -14347,7 +14350,10 @@
 					},
 					"uid": 552,
 					"instanceVariables": {
-						"Health": 100
+						"HP": 0,
+						"Damage": 0,
+						"Health": 100,
+						"ID": 0
 					},
 					"behaviors": {
 						"Turret": {
@@ -15483,7 +15489,10 @@
 					},
 					"uid": 553,
 					"instanceVariables": {
-						"Health": 100
+						"HP": 0,
+						"Damage": 0,
+						"Health": 100,
+						"ID": 0
 					},
 					"behaviors": {
 						"Turret": {

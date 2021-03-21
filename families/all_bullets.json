@@ -1,11 +1,14 @@
 {
-	"name": "Light_Bullets",
+	"name": "All_Bullets",
 	"plugin-id": "Sprite",
-	"sid": 730588502623491,
+	"sid": 124795260578164,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [
+		"Bullet",
+		"enemy_bullet",
+		"enemy_turret_bullet",
 		"MG_Bullet",
 		"Player_Bullet",
 		"Soldier_Bullet"

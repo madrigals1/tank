@@ -1,0 +1,706 @@
+{
+	"name": "Soldier2",
+	"plugin-id": "Sprite",
+	"sid": 120086147235437,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 643808157736718
+		},
+		{
+			"name": "ID",
+			"type": "number",
+			"desc": "",
+			"sid": 302402879052170
+		},
+		{
+			"name": "Ammo",
+			"type": "number",
+			"desc": "",
+			"sid": 971776613288047
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 344200157364984
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 555985287381397
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 878121739348254
+		},
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 353346960222717
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 261,
+						"height": 155,
+						"originX": 0.237548,
+						"originY": 0.548387,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\idle\\survivor-idle_rifle_0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8111678,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "ShootPoint",
+								"x": 0.961686,
+								"y": 0.754839
+							}
+						],
+						"duration": 1
+					}
+				],
+				"sid": 864610634421145,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 261,
+						"height": 155,
+						"originX": 0.237548,
+						"originY": 0.548387,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8604389,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "ShootPoint",
+								"x": 0.961686,
+								"y": 0.754839
+							}
+						],
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 155,
+						"originX": 0.237548,
+						"originY": 0.548387,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_0.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1795482,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 262,
+						"height": 156,
+						"originX": 0.236641,
+						"originY": 0.551282,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_1.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6043178,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 265,
+						"height": 158,
+						"originX": 0.237736,
+						"originY": 0.550633,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_2.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3063260,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 267,
+						"height": 161,
+						"originX": 0.235955,
+						"originY": 0.546584,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_3.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 608575,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 268,
+						"height": 162,
+						"originX": 0.238806,
+						"originY": 0.549383,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_4.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6710961,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 270,
+						"height": 163,
+						"originX": 0.237037,
+						"originY": 0.546012,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_5.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5220006,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 269,
+						"height": 162,
+						"originX": 0.237918,
+						"originY": 0.549383,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_6.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6375262,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 268,
+						"height": 162,
+						"originX": 0.238806,
+						"originY": 0.549383,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_7.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2164273,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 268,
+						"height": 161,
+						"originX": 0.238806,
+						"originY": 0.546584,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_8.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9942082,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 267,
+						"height": 161,
+						"originX": 0.235955,
+						"originY": 0.546584,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_9.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8200969,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 266,
+						"height": 160,
+						"originX": 0.236842,
+						"originY": 0.55,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_10.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1207138,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 264,
+						"height": 161,
+						"originX": 0.238636,
+						"originY": 0.546584,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_11.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9689126,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 163,
+						"originX": 0.237548,
+						"originY": 0.546012,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_12.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1326553,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 259,
+						"height": 163,
+						"originX": 0.239382,
+						"originY": 0.546012,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_13.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1805193,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 260,
+						"height": 162,
+						"originX": 0.238462,
+						"originY": 0.549383,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_14.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6074907,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 260,
+						"height": 161,
+						"originX": 0.238462,
+						"originY": 0.546584,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_15.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6756365,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 159,
+						"originX": 0.237548,
+						"originY": 0.54717,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_16.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3841479,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 158,
+						"originX": 0.237548,
+						"originY": 0.550633,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_17.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3943579,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 156,
+						"originX": 0.237548,
+						"originY": 0.551282,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_18.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5715256,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 261,
+						"height": 155,
+						"originX": 0.237548,
+						"originY": 0.548387,
+						"originalSource": "C:\\Users\\Adi\\Downloads\\Top_Down_Survivor\\rifle\\reload\\survivor-reload_rifle_19.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3836793,
+						"collisionPoly": {
+							"points": [
+								0.319434,
+								0.184243,
+								0.474516,
+								0.317122,
+								0.405425,
+								0.845658,
+								0.186908,
+								0.980645,
+								0.0191571,
+								0.796774,
+								0.0498084,
+								0.493921
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 845986781808746,
+				"name": "Reload",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 7
+			}
+		],
+		"subfolders": []
+	}
+}

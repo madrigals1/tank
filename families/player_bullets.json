@@ -1,0 +1,20 @@
+{
+	"name": "Player_Bullets",
+	"plugin-id": "Sprite",
+	"sid": 730588502623491,
+	"instanceVariables": [
+		{
+			"name": "DMG",
+			"type": "number",
+			"desc": "",
+			"sid": 280503190355965
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"MG_Bullet",
+		"Player_Bullet",
+		"Bullet"
+	]
+}

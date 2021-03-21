@@ -1839,6 +1839,8 @@
 					},
 					"uid": 695,
 					"instanceVariables": {
+						"HP": 50,
+						"Damage": 0,
 						"ID": 0,
 						"Health": 50,
 						"Direction": 0
@@ -1863,8 +1865,8 @@
 						}
 					},
 					"world": {
-						"x": 1364,
-						"y": -406,
+						"x": 420,
+						"y": 420,
 						"width": 60,
 						"height": 35,
 						"originX": 0.503937,
@@ -2009,6 +2011,8 @@
 					},
 					"uid": 188,
 					"instanceVariables": {
+						"HP": 0,
+						"Damage": 0,
 						"Health": 10,
 						"ID": 0,
 						"Ammo": 20
@@ -7114,7 +7118,10 @@
 						"live-preview": false
 					},
 					"uid": 822,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DMG": 0,
+						"Damage": 0
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -7158,7 +7165,12 @@
 						"live-preview": false
 					},
 					"uid": 823,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DMG": 0,
+						"Damage": 2.5,
+						"Accuracy": 1,
+						"Accuracy_Moving": 2
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {

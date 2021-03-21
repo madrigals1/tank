@@ -225,7 +225,10 @@
 						"live-preview": false
 					},
 					"uid": 172,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DMG": 0,
+						"Damage": 0
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -534,6 +537,8 @@
 					},
 					"uid": 182,
 					"instanceVariables": {
+						"HP": 0,
+						"Damage": 0,
 						"Health": 10,
 						"ID": 0,
 						"Ammo": 20
@@ -700,6 +705,8 @@
 					},
 					"uid": 768,
 					"instanceVariables": {
+						"HP": 0,
+						"Damage": 0,
 						"Health": 2000,
 						"ID": 1
 					},
@@ -770,6 +777,8 @@
 					},
 					"uid": 174,
 					"instanceVariables": {
+						"HP": 0,
+						"Damage": 0,
 						"Health": 2000,
 						"ID": 1
 					},

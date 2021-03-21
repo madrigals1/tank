@@ -454,7 +454,18 @@
 		}
 	],
 	"sid": 8605319373026931,
-	"nonworld-instances": [],
+	"nonworld-instances": [
+		{
+			"type": "Red_Position",
+			"properties": {
+				"width": 6,
+				"height": 2,
+				"depth": 1
+			},
+			"uid": 122,
+			"instanceVariables": {}
+		}
+	],
 	"effectTypes": [],
 	"width": 1708,
 	"height": 960,

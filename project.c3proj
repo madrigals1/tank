@@ -95,6 +95,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Arr",
+			"name": "Array",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Fade",
 			"name": "Fade",
@@ -350,10 +358,11 @@
 					"Function",
 					"Keyboard",
 					"LocalStorage",
-					"Mouse"
+					"Mouse",
+					"Red_Position"
 				],
 				"subfolders": [],
-				"name": "MISC"
+				"name": "System"
 			},
 			{
 				"items": [
@@ -363,7 +372,8 @@
 					"MineBoom",
 					"Soldier",
 					"Soldier_House",
-					"WeaponS"
+					"WeaponS",
+					"Soldier2"
 				],
 				"subfolders": [],
 				"name": "Enemies"
@@ -384,10 +394,12 @@
 		"items": [
 			"WaterBlocks",
 			"Walls_Bronze",
-			"Light_Bullets",
+			"Player_Bullets",
 			"Trees",
 			"FireBurners",
-			"Boosts"
+			"Boosts",
+			"Enemies",
+			"All_Bullets"
 		],
 		"subfolders": []
 	},

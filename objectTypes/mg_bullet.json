@@ -3,7 +3,26 @@
 	"plugin-id": "Sprite",
 	"sid": 6062502993973503,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Damage",
+			"type": "number",
+			"desc": "",
+			"sid": 656264382643352
+		},
+		{
+			"name": "Accuracy",
+			"type": "number",
+			"desc": "",
+			"sid": 459474209656419
+		},
+		{
+			"name": "Accuracy_Moving",
+			"type": "number",
+			"desc": "",
+			"sid": 303049470901069
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Bullet",
